@@ -1,0 +1,84 @@
+<p align="center">
+  <img src="assets/icon-freeform.png" width="160" alt="ZXP Manager icon">
+</p>
+
+<h1 align="center">ZXP Manager</h1>
+
+<p align="center">
+  Install, list and remove extensions for Adobe Creative Cloud apps — natively on Apple Silicon.<br>
+  Free and open source. About 4 MB.
+</p>
+
+---
+
+## Features
+
+- **Install** `.zxp` and `.ccx` extensions by dragging them onto the window or the Dock icon, or with the **+** button
+- **Preview before installing**: name, version and target apps (After Effects, Photoshop, Illustrator…) are read from the package, and you're told if the extension is already installed
+- **See everything that is installed**, grouped by Adobe app
+- **Remove** extensions with one click
+- **38 languages**, following your system language
+- **Native and lightweight**: built with SwiftUI, starts instantly, no bundled browser engine
+
+## Requirements
+
+- A Mac with **Apple Silicon** and **macOS 13 Ventura** or later
+- The **Adobe Creative Cloud** desktop app, installed and signed in
+
+ZXP Manager uses Adobe's own plugin installer, which comes with the Creative Cloud app. It does not modify Adobe software.
+
+## Download
+
+Get the latest version from the [Releases](https://github.com/oddmoth/zxp-manager/releases) page.
+
+### Opening the app the first time
+
+ZXP Manager is free and open source, and it is not yet notarized by Apple. For this reason macOS shows a warning the first time you open it. The code is public in this repository, so anyone can check what it does.
+
+To open it:
+
+1. Open ZXP Manager. macOS says it can't verify the app: click **Done**.
+2. Open **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to ZXP Manager.
+3. Confirm with your password. From now on the app opens normally.
+
+Alternatively, in Terminal:
+
+```sh
+xattr -dr com.apple.quarantine "/Applications/ZXP Manager.app"
+```
+
+## Build from source
+
+Requirements: Xcode Command Line Tools (`xcode-select --install`). Full Xcode is optional: if present, it is used to compile the adaptive icon for macOS 26.
+
+```sh
+git clone https://github.com/oddmoth/zxp-manager.git
+cd zxp-manager/macos
+./build.sh
+```
+
+The app is created in `macos/build/`.
+
+## Translations
+
+All texts live in [`i18n/`](i18n/), one JSON file per language, shared by every version of the app. `en.json` is the reference.
+
+To fix or improve a translation, edit the file for your language and open a pull request. Please keep placeholders such as `%@` and `%d` unchanged. Native speakers' reviews are very welcome, especially for the less common languages.
+
+## Project structure
+
+```
+i18n/      translations (one JSON file per language)
+macos/     macOS app: source code, build script, icon
+assets/    shared artwork
+```
+
+A Windows version is planned.
+
+## Disclaimer
+
+ZXP Manager is an independent project and is not affiliated with, endorsed by, or sponsored by Adobe. Adobe, Creative Cloud, After Effects, Photoshop, Illustrator and the other product names are trademarks of Adobe Inc.
+
+## License
+
+[MIT](LICENSE) © 2026 Odd Moth

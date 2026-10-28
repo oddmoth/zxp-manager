@@ -9,6 +9,10 @@ windows/bin/
 windows/obj/
 out/
 
+# Working artwork files (only the exported PNGs go in the repository)
+*.psd
+*.psb
+
 # Release packaging (generated)
 dist/
 portable/

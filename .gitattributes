@@ -1,0 +1,9 @@
+# Keep Unix line endings (LF) on every computer, Windows included.
+# Shell scripts such as macos/build.sh stop working with Windows line endings (CRLF).
+* text=auto eol=lf
+
+# Binary files: never touch them
+*.png binary
+*.ico binary
+*.icns binary
+*.zip binary

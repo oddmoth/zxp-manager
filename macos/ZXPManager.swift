@@ -28,6 +28,7 @@ func LF(_ key: String, _ args: CVarArg...) -> String {
 }
 
 /// Writing direction of the language the app is actually running in (e.g. Arabic → right to left).
+/// Applied to the window content; the title bar and toolbar follow the system language (macOS mirrors them itself).
 let appLayoutDirection: LayoutDirection = {
     let language = Bundle.main.preferredLocalizations.first ?? "en"
     return Locale.Language(identifier: language).characterDirection == .rightToLeft ? .rightToLeft : .leftToRight
@@ -756,14 +757,6 @@ struct ZXPManagerApp: App {
         // register(defaults:) only sets the fallback: a value set by the user with
         // `defaults write com.oddmoth.zxpmanager NSInitialToolTipDelay` still wins.
         UserDefaults.standard.register(defaults: ["NSInitialToolTipDelay": 500])
-
-        // Right-to-left languages (Arabic, Persian, Urdu, Pashto): also mirror the window chrome
-        if appLayoutDirection == .rightToLeft {
-            UserDefaults.standard.register(defaults: [
-                "AppleTextDirection": true,
-                "NSForceRightToLeftWritingDirection": true,
-            ])
-        }
     }
 
     var body: some Scene {

@@ -88,6 +88,9 @@ To see the app in another language without changing your system language:
 # macOS
 open -n "/Applications/ZXP Manager.app" --args -AppleLanguages "(de)"
 
+# macOS, right-to-left languages (simulates a Mac set to that language, title bar included)
+open -n "/Applications/ZXP Manager.app" --args -AppleLanguages "(ar)" -AppleTextDirection YES -NSForceRightToLeftWritingDirection YES
+
 # Windows (Command Prompt or PowerShell, in the folder of the exe)
 .\ZXPManager.exe --lang=de
 ```

@@ -422,7 +422,8 @@ struct PackageCard: View {
         return HStack(spacing: 6) {
             Image(systemName: installed ? "app.badge.checkmark" : "app.dashed")
                 .foregroundStyle(installed ? Color.green : Color.orange)
-            Text(host.displayName + range)
+            // U+200E keeps the closing parenthesis in place in right-to-left languages
+            Text(host.displayName + range + "\u{200E}")
             if !installed {
                 Text(L("preview.notInstalled")).foregroundStyle(Color.orange)
             }

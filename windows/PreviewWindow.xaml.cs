@@ -189,7 +189,8 @@ namespace ZXPManager
                     bool installed = apps.Any(a => a.Name.IndexOf(host.DisplayName, StringComparison.OrdinalIgnoreCase) >= 0);
                     var text = new TextBlock { TextWrapping = TextWrapping.Wrap, VerticalAlignment = VerticalAlignment.Center };
                     text.SetResourceReference(TextBlock.ForegroundProperty, "Fg");
-                    text.Inlines.Add(new Run(host.DisplayName + (host.Range != null ? " (" + host.Range + ")" : "")));
+                    // U+200E keeps the closing parenthesis in place in right-to-left languages
+                    text.Inlines.Add(new Run(host.DisplayName + (host.Range != null ? " (" + host.Range + ")" : "") + "‎"));
                     if (!installed)
                     {
                         var missing = new Run("   " + Loc.T("preview.notInstalled"));

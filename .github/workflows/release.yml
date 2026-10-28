@@ -1,0 +1,153 @@
+name: Release
+
+# Push a tag such as v1.0.0 to build both apps and publish them on the Releases page.
+# "Run workflow" (manual) builds everything without publishing: useful for a dry run.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version for a test build (nothing is published)"
+        default: "1.0.0"
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v5
+
+      - name: Read the version
+        shell: pwsh
+        run: |
+          $v = if ("${{ github.ref_type }}" -eq "tag") { "${{ github.ref_name }}".TrimStart("v") } else { "${{ inputs.version }}" }
+          "VERSION=$v" >> $env:GITHUB_ENV
+          "Version: $v"
+
+      - name: Build ZXP Manager
+        run: dotnet build windows/ZXPManager.csproj --configuration Release --output out -p:Version=${{ env.VERSION }}
+
+      - name: Get Inno Setup
+        shell: pwsh
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) { choco install innosetup -y --no-progress }
+          "ISCC=$iscc" >> $env:GITHUB_ENV
+          # Offer the installer in every language that comes with Inno Setup
+          Get-ChildItem "${env:ProgramFiles(x86)}\Inno Setup 6\Languages\*.isl" |
+            ForEach-Object { 'Name: "{0}"; MessagesFile: "compiler:Languages\{1}"' -f $_.BaseName.ToLower(), $_.Name } |
+            Set-Content windows\installer\languages.iss -Encoding utf8
+          Get-Content windows\installer\languages.iss
+
+      - name: Build the installer
+        shell: pwsh
+        run: |
+          & $env:ISCC "/DAppVersion=$env:VERSION" "/DAppExe=$PWD\out\ZXPManager.exe" "/O$PWD\dist" windows\installer\ZXPManager.iss
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Build the portable zip
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory portable | Out-Null
+          Copy-Item out\ZXPManager.exe portable\
+          Copy-Item docs\how-to-open.html "portable\How to open ZXP Manager.html"
+          Compress-Archive -Path portable\* -DestinationPath "dist\ZXP-Manager-Windows-Portable-$env:VERSION.zip"
+          Get-ChildItem dist | Format-Table Name, Length
+
+      - name: Keep the files for the release
+        uses: actions/upload-artifact@v6
+        with:
+          name: release-windows
+          path: dist/*
+          if-no-files-found: error
+
+  macos:
+    runs-on: macos-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v5
+
+      - name: Read the version
+        run: |
+          if [ "${{ github.ref_type }}" = "tag" ]; then V="${GITHUB_REF_NAME#v}"; else V="${{ inputs.version }}"; fi
+          echo "VERSION=$V" >> "$GITHUB_ENV"
+          echo "Version: $V"
+
+      - name: Use the newest Xcode (needed for the Icon Composer icon)
+        run: |
+          XCODE=$(ls -d /Applications/Xcode_*.app 2>/dev/null | grep -vi beta | sort -V | tail -1)
+          [ -z "$XCODE" ] && XCODE=/Applications/Xcode.app
+          echo "Using $XCODE"
+          echo "DEVELOPER_DIR=$XCODE/Contents/Developer" >> "$GITHUB_ENV"
+          echo "XCODE_DEVELOPER_DIR=$XCODE/Contents/Developer" >> "$GITHUB_ENV"
+
+      - name: Build ZXP Manager
+        env:
+          ZXP_VERSION: ${{ env.VERSION }}
+          ZXP_BUILD: ${{ github.run_number }}
+        run: zsh macos/build.sh
+
+      - name: Build the .dmg
+        run: |
+          brew install create-dmg
+          mkdir -p dist
+          zsh macos/make-dmg.sh "$GITHUB_WORKSPACE/dist/ZXP-Manager-macOS-$VERSION.dmg"
+
+      - name: Keep the files for the release
+        uses: actions/upload-artifact@v6
+        with:
+          name: release-macos
+          path: dist/*
+          if-no-files-found: error
+
+  publish:
+    needs: [windows, macos]
+    if: github.ref_type == 'tag'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v5
+
+      - name: Collect the files
+        uses: actions/download-artifact@v7
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Add the guide and checksums
+        run: |
+          cp docs/how-to-open.html "dist/How-to-open-ZXP-Manager.html"
+          cd dist
+          sha256sum * > SHA256SUMS.txt
+          ls -la
+          cat SHA256SUMS.txt
+
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          cat > notes.md <<EOF
+          ## Downloads
+
+          | | |
+          |---|---|
+          | **macOS** (Apple Silicon, macOS 13 or later) | \`ZXP-Manager-macOS-$VERSION.dmg\` |
+          | **Windows** installer (Windows 10/11) | \`ZXP-Manager-Setup-$VERSION.exe\` |
+          | **Windows** portable, no installation | \`ZXP-Manager-Windows-Portable-$VERSION.zip\` |
+
+          ZXP Manager isn't signed with a paid certificate yet, so macOS and Windows ask you to confirm the first time you open it.
+          See **How-to-open-ZXP-Manager.html** below for the steps (it takes a few seconds, and only once).
+
+          Requires the Adobe Creative Cloud desktop app, installed and signed in.
+          EOF
+          gh release create "$GITHUB_REF_NAME" dist/* \
+            --repo "${{ github.repository }}" \
+            --title "ZXP Manager $VERSION" \
+            --notes-file notes.md \
+            --generate-notes

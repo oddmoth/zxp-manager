@@ -30,7 +30,15 @@ ZXP Manager uses Adobe's own plugin installer, which comes with the Creative Clo
 
 ## Download
 
-Get the latest version from the [Releases](https://github.com/oddmoth/zxp-manager/releases) page.
+Get the latest version from the [Releases](https://github.com/oddmoth/zxp-manager/releases) page:
+
+| System | File |
+|---|---|
+| macOS (Apple Silicon) | `ZXP-Manager-macOS-x.y.z.dmg`: open it and drag ZXP Manager to Applications |
+| Windows | `ZXP-Manager-Setup-x.y.z.exe`: installer, adds a Start menu entry and opens `.zxp` files with a double-click |
+| Windows | `ZXP-Manager-Windows-Portable-x.y.z.zip`: no installation, just unzip and run |
+
+The first time you open it, macOS and Windows ask you to confirm: see the steps below, or the step-by-step guide [How to open ZXP Manager](docs/how-to-open.html), which is also included in the downloads.
 
 ### Opening the app the first time on macOS
 
@@ -50,7 +58,9 @@ xattr -dr com.apple.quarantine "/Applications/ZXP Manager.app"
 
 ### Opening the app the first time on Windows
 
-The app is not yet signed with a code-signing certificate, so Windows SmartScreen may show a blue "Windows protected your PC" window. Click **More info**, then **Run anyway**. No installation is needed: `ZXPManager.exe` runs as is, from any folder.
+The app is not yet signed with a code-signing certificate, so Windows SmartScreen may show a blue "Windows protected your PC" window. Click **More info**, then **Run anyway**. Windows asks only once: with the installer the question comes up when you run it, with the portable version when you first open `ZXPManager.exe`.
+
+On computers with **Smart App Control** turned on, unsigned apps are blocked without a "Run anyway" option, so ZXP Manager can't be opened there for now.
 
 ## Build from source
 
@@ -75,6 +85,12 @@ To build it yourself, install the [.NET SDK](https://dotnet.microsoft.com/downlo
 ```sh
 dotnet build windows/ZXPManager.csproj --configuration Release --output out
 ```
+
+### Publishing a new version
+
+Create a tag such as `v1.0.1` (in GitHub Desktop: **History** → right-click the latest commit → **Create Tag…**, then **Push origin**). The **Release** workflow builds both apps, creates the `.dmg`, the Windows installer and the portable zip, and publishes them with checksums on the Releases page.
+
+To try the packages without publishing anything, open **Actions → Release → Run workflow**.
 
 ## Translations
 
@@ -101,8 +117,9 @@ Replace `de` with the code of the language (the name of its file in `i18n/`, e.g
 
 ```
 i18n/      translations (one JSON file per language), shared by both apps
-macos/     macOS app (SwiftUI): source code, build script, icon
-windows/   Windows app (WPF, .NET Framework 4.8)
+macos/     macOS app (SwiftUI): source code, build script, icon, .dmg layout
+windows/   Windows app (WPF, .NET Framework 4.8) and its installer
+docs/      "How to open ZXP Manager" guide, included in the downloads
 assets/    shared artwork
 ```
 

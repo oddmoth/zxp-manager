@@ -15,7 +15,7 @@
     <!-- Allows building on non-Windows machines for syntax checks -->
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
 
-    <Version>1.2.0</Version>
+    <Version>1.0.0</Version>
     <Product>ZXP Manager</Product>
     <Company>Odd Moth</Company>
     <Copyright>© 2026 Odd Moth · MIT License</Copyright>

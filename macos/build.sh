@@ -6,8 +6,8 @@ cd "$(dirname "$0")"
 
 OUT="build"
 APP="$OUT/ZXP Manager.app"
-VERSION="1.2"
-BUILD="3"
+VERSION="${ZXP_VERSION:-1.0.0}"   # set by the release workflow from the git tag
+BUILD="${ZXP_BUILD:-1}"
 I18N="../i18n"
 
 # Output goes to macos/build/ (created if missing; any previous build is replaced)

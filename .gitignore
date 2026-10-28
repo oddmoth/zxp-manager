@@ -8,3 +8,8 @@ macos/build/
 windows/bin/
 windows/obj/
 out/
+
+# Release packaging (generated)
+dist/
+portable/
+windows/installer/languages.iss

@@ -82,6 +82,18 @@ All texts live in [`i18n/`](i18n/), one JSON file per language, shared by every 
 
 To fix or improve a translation, edit the file for your language and open a pull request. Please keep placeholders such as `%@` and `%d` unchanged. Native speakers' reviews are very welcome, especially for the less common languages.
 
+To see the app in another language without changing your system language:
+
+```sh
+# macOS
+open -n "/Applications/ZXP Manager.app" --args -AppleLanguages "(de)"
+
+# Windows (Command Prompt or PowerShell, in the folder of the exe)
+.\ZXPManager.exe --lang=de
+```
+
+Replace `de` with the code of the language (the name of its file in `i18n/`, e.g. `ja`, `ar`, `zh-Hans`).
+
 ## Project structure
 
 ```

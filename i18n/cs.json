@@ -25,7 +25,7 @@
   "preview.title.one": "Nainstalovat toto rozšíření?",
   "preview.title.many": "Nainstalovat tato rozšíření (%d)?",
   "preview.title.done": "Instalace dokončena",
-  "preview.installsIn": "Instaluje se do:",
+  "preview.installsIn": "Kompatibilní s:",
   "preview.notInstalled": "není nainstalováno",
   "preview.alreadyInstalled": "Už nainstalováno (verze %@): bude nahrazeno",
   "preview.readError": "Podrobnosti tohoto balíčku nelze přečíst — přesto ho můžete nainstalovat",

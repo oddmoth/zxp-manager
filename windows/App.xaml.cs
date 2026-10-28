@@ -35,6 +35,13 @@ namespace ZXPManager
             }
             StartupFiles = files.ToArray();
 
+            // Already open? Hand over the files to that window and quit
+            if (!SingleInstance.TryClaim() && SingleInstance.SendToRunning(StartupFiles))
+            {
+                Shutdown();
+                return;
+            }
+
             DispatcherUnhandledException += OnUnhandledException;
 
             if (language != null)
@@ -53,7 +60,10 @@ namespace ZXPManager
                     Dispatcher.Invoke(new System.Action(Theme.Apply));
             };
 
-            new MainWindow().Show();
+            var window = new MainWindow();
+            window.Show();
+            SingleInstance.Listen(received =>
+                Dispatcher.BeginInvoke(new System.Action(() => window.ReceiveFromOtherLaunch(received))));
         }
 
         private void OnUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e)

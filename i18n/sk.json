@@ -25,7 +25,7 @@
   "preview.title.one": "Nainštalovať toto rozšírenie?",
   "preview.title.many": "Nainštalovať tieto rozšírenia (%d)?",
   "preview.title.done": "Inštalácia dokončená",
-  "preview.installsIn": "Inštaluje sa do:",
+  "preview.installsIn": "Kompatibilné s:",
   "preview.notInstalled": "nie je nainštalované",
   "preview.alreadyInstalled": "Už nainštalované (verzia %@): bude nahradené",
   "preview.readError": "Podrobnosti tohto balíka sa nedajú prečítať — napriek tomu ho môžete nainštalovať",

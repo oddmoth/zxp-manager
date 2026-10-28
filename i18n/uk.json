@@ -25,7 +25,7 @@
   "preview.title.one": "Установити це розширення?",
   "preview.title.many": "Установити ці розширення (%d)?",
   "preview.title.done": "Установлення завершено",
-  "preview.installsIn": "Встановлюється в:",
+  "preview.installsIn": "Сумісно з:",
   "preview.notInstalled": "не встановлено",
   "preview.alreadyInstalled": "Уже встановлено (версія %@): її буде замінено",
   "preview.readError": "Не вдалося прочитати подробиці цього пакета — але його все одно можна встановити",

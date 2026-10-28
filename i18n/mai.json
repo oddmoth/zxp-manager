@@ -25,7 +25,7 @@
   "preview.title.one": "की ई एक्सटेंशन इन्स्टॉल करी?",
   "preview.title.many": "की ई एक्सटेंशन सभ (%d) इन्स्टॉल करी?",
   "preview.title.done": "इन्स्टॉलेशन पूरा भेल",
-  "preview.installsIn": "एतय इन्स्टॉल होइत अछि:",
+  "preview.installsIn": "एहि सँ संगत:",
   "preview.notInstalled": "इन्स्टॉल नहि",
   "preview.alreadyInstalled": "पहिने सँ इन्स्टॉल अछि (संस्करण %@): एकरा बदलल जाएत",
   "preview.readError": "एहि पैकेजक विवरण नहि पढ़ल जा सकल — तइयो अहाँ एकरा इन्स्टॉल क' सकैत छी",

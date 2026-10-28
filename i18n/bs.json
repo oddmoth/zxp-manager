@@ -25,7 +25,7 @@
   "preview.title.one": "Instalirati ovu ekstenziju?",
   "preview.title.many": "Instalirati ove ekstenzije (%d)?",
   "preview.title.done": "Instalacija završena",
-  "preview.installsIn": "Instalira se u:",
+  "preview.installsIn": "Kompatibilno sa:",
   "preview.notInstalled": "nije instalirana",
   "preview.alreadyInstalled": "Već instalirano (verzija %@): bit će zamijenjeno",
   "preview.readError": "Nije moguće pročitati detalje ovog paketa — ipak ga možete instalirati",

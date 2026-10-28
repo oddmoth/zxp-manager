@@ -25,7 +25,7 @@
   "preview.title.one": "Kas installida see laiendus?",
   "preview.title.many": "Kas installida need laiendused (%d)?",
   "preview.title.done": "Installimine on lõpetatud",
-  "preview.installsIn": "Installitakse rakendusse:",
+  "preview.installsIn": "Ühildub rakendustega:",
   "preview.notInstalled": "pole installitud",
   "preview.alreadyInstalled": "Juba installitud (versioon %@): see asendatakse",
   "preview.readError": "Selle paketi üksikasju ei saanud lugeda — saate selle siiski installida",

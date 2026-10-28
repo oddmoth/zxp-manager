@@ -25,7 +25,7 @@
   "preview.title.one": "این افزونه نصب شود؟",
   "preview.title.many": "این افزونه‌ها (%d) نصب شوند؟",
   "preview.title.done": "نصب کامل شد",
-  "preview.installsIn": "نصب در:",
+  "preview.installsIn": "سازگار با:",
   "preview.notInstalled": "نصب نشده",
   "preview.alreadyInstalled": "از قبل نصب شده (نسخه %@): جایگزین خواهد شد",
   "preview.readError": "خواندن جزئیات این بسته ممکن نیست — همچنان می‌توانید آن را نصب کنید",

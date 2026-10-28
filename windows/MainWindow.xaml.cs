@@ -174,6 +174,24 @@ namespace ZXPManager
             await ProcessQueueAsync();
         }
 
+        /// <summary>Files opened while ZXP Manager was already running (double-click, "Open with").</summary>
+        public async void ReceiveFromOtherLaunch(string[] files)
+        {
+            BringToFront();
+            if (files.Length > 0) await PrepareAsync(files);
+        }
+
+        private void BringToFront()
+        {
+            if (WindowState == WindowState.Minimized) WindowState = WindowState.Normal;
+            // If the preview or a confirmation is open, that is the window to show
+            var target = OwnedWindows.Cast<Window>().LastOrDefault(w => w.IsVisible) ?? this;
+            target.Activate();
+            target.Topmost = true;
+            target.Topmost = false;
+            target.Focus();
+        }
+
         private async void Add_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new OpenFileDialog

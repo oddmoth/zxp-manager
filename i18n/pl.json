@@ -25,7 +25,7 @@
   "preview.title.one": "Zainstalować to rozszerzenie?",
   "preview.title.many": "Zainstalować te rozszerzenia (%d)?",
   "preview.title.done": "Instalacja zakończona",
-  "preview.installsIn": "Instalowane w:",
+  "preview.installsIn": "Zgodne z:",
   "preview.notInstalled": "niezainstalowana",
   "preview.alreadyInstalled": "Już zainstalowane (wersja %@): zostanie zastąpione",
   "preview.readError": "Nie można odczytać szczegółów tego pakietu — nadal możesz go zainstalować",

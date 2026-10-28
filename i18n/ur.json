@@ -25,7 +25,7 @@
   "preview.title.one": "یہ ایکسٹینشن انسٹال کریں؟",
   "preview.title.many": "یہ ایکسٹینشنز (%d) انسٹال کریں؟",
   "preview.title.done": "انسٹالیشن مکمل ہو گئی",
-  "preview.installsIn": "انسٹال ہوتا ہے:",
+  "preview.installsIn": "ان کے ساتھ مطابقت رکھتا ہے:",
   "preview.notInstalled": "انسٹال نہیں",
   "preview.alreadyInstalled": "پہلے سے انسٹال ہے (ورژن %@): اسے تبدیل کر دیا جائے گا",
   "preview.readError": "اس پیکیج کی تفصیلات نہیں پڑھی جا سکیں — آپ پھر بھی اسے انسٹال کر سکتے ہیں",

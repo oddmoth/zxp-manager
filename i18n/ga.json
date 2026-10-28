@@ -25,7 +25,7 @@
   "preview.title.one": "An bhfuil fonn ort an síneadh seo a shuiteáil?",
   "preview.title.many": "An bhfuil fonn ort na síntí seo (%d) a shuiteáil?",
   "preview.title.done": "Suiteáil críochnaithe",
-  "preview.installsIn": "Suiteáiltear i:",
+  "preview.installsIn": "Comhoiriúnach le:",
   "preview.notInstalled": "gan suiteáil",
   "preview.alreadyInstalled": "Suiteáilte cheana (leagan %@): cuirfear ina áit é",
   "preview.readError": "Níorbh fhéidir sonraí an phacáiste seo a léamh — is féidir leat é a shuiteáil fós",

@@ -25,7 +25,7 @@
   "preview.title.one": "இந்த நீட்டிப்பை நிறுவவா?",
   "preview.title.many": "இந்த நீட்டிப்புகளை (%d) நிறுவவா?",
   "preview.title.done": "நிறுவல் முடிந்தது",
-  "preview.installsIn": "நிறுவப்படும் இடம்:",
+  "preview.installsIn": "இவற்றுடன் இணக்கமானது:",
   "preview.notInstalled": "நிறுவப்படவில்லை",
   "preview.alreadyInstalled": "ஏற்கனவே நிறுவப்பட்டுள்ளது (பதிப்பு %@): மாற்றப்படும்",
   "preview.readError": "இந்தத் தொகுப்பின் விவரங்களைப் படிக்க முடியவில்லை — இருப்பினும் நிறுவலாம்",

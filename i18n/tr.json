@@ -25,7 +25,7 @@
   "preview.title.one": "Bu uzantı yüklensin mi?",
   "preview.title.many": "Bu uzantılar yüklensin mi (%d)?",
   "preview.title.done": "Yükleme tamamlandı",
-  "preview.installsIn": "Şuraya yüklenir:",
+  "preview.installsIn": "Uyumlu uygulamalar:",
   "preview.notInstalled": "yüklü değil",
   "preview.alreadyInstalled": "Zaten yüklü (sürüm %@): değiştirilecek",
   "preview.readError": "Bu paketin ayrıntıları okunamıyor — yine de yükleyebilirsiniz",

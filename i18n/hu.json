@@ -25,7 +25,7 @@
   "preview.title.one": "Telepíti ezt a bővítményt?",
   "preview.title.many": "Telepíti ezeket a bővítményeket (%d)?",
   "preview.title.done": "A telepítés befejeződött",
-  "preview.installsIn": "Telepítés helye:",
+  "preview.installsIn": "Kompatibilis:",
   "preview.notInstalled": "nincs telepítve",
   "preview.alreadyInstalled": "Már telepítve (%@ verzió): le lesz cserélve",
   "preview.readError": "A csomag részletei nem olvashatók — ennek ellenére telepítheti",

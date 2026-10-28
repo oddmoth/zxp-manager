@@ -25,7 +25,7 @@
   "preview.title.one": "Diese Erweiterung installieren?",
   "preview.title.many": "Diese Erweiterungen installieren (%d)?",
   "preview.title.done": "Installation abgeschlossen",
-  "preview.installsIn": "Wird installiert in:",
+  "preview.installsIn": "Kompatibel mit:",
   "preview.notInstalled": "nicht installiert",
   "preview.alreadyInstalled": "Bereits installiert (Version %@): wird ersetzt",
   "preview.readError": "Die Details dieses Pakets können nicht gelesen werden – du kannst es trotzdem installieren",

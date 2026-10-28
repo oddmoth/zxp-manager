@@ -25,7 +25,7 @@
   "preview.title.one": "要安裝此延伸功能嗎？",
   "preview.title.many": "要安裝這些延伸功能（%d）嗎？",
   "preview.title.done": "安裝完成",
-  "preview.installsIn": "安裝至：",
+  "preview.installsIn": "相容：",
   "preview.notInstalled": "未安裝",
   "preview.alreadyInstalled": "已安裝（版本 %@）：將被取代",
   "preview.readError": "無法讀取此套件的詳細資訊 — 仍可安裝",

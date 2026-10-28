@@ -25,7 +25,7 @@
   "preview.title.one": "Įdiegti šį plėtinį?",
   "preview.title.many": "Įdiegti šiuos plėtinius (%d)?",
   "preview.title.done": "Įdiegimas baigtas",
-  "preview.installsIn": "Bus įdiegta į:",
+  "preview.installsIn": "Suderinama su:",
   "preview.notInstalled": "neįdiegta",
   "preview.alreadyInstalled": "Jau įdiegta (versija %@): bus pakeista",
   "preview.readError": "Nepavyko nuskaityti šio paketo informacijos — vis tiek galite jį įdiegti",

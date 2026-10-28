@@ -25,7 +25,7 @@
   "preview.title.one": "Vai instalēt šo paplašinājumu?",
   "preview.title.many": "Vai instalēt šos paplašinājumus (%d)?",
   "preview.title.done": "Instalēšana pabeigta",
-  "preview.installsIn": "Tiks instalēts lietotnē:",
+  "preview.installsIn": "Saderīgs ar:",
   "preview.notInstalled": "nav instalēts",
   "preview.alreadyInstalled": "Jau instalēts (versija %@): tiks aizstāts",
   "preview.readError": "Neizdevās nolasīt šīs pakotnes informāciju — to tomēr var instalēt",

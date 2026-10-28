@@ -25,7 +25,7 @@
   "preview.title.one": "Queres instalar esta extensión?",
   "preview.title.many": "Queres instalar estas extensións (%d)?",
   "preview.title.done": "Instalación completada",
-  "preview.installsIn": "Instálase en:",
+  "preview.installsIn": "Compatible con:",
   "preview.notInstalled": "non instalada",
   "preview.alreadyInstalled": "Xa instalada (versión %@): substituirase",
   "preview.readError": "Non se puideron ler os detalles deste paquete — aínda así podes instalalo",

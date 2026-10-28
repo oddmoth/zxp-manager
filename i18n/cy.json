@@ -25,7 +25,7 @@
   "preview.title.one": "Gosod yr estyniad hwn?",
   "preview.title.many": "Gosod yr estyniadau hyn (%d)?",
   "preview.title.done": "Gosod wedi'i gwblhau",
-  "preview.installsIn": "Yn gosod yn:",
+  "preview.installsIn": "Yn gydnaws â:",
   "preview.notInstalled": "heb ei osod",
   "preview.alreadyInstalled": "Wedi'i osod eisoes (fersiwn %@): bydd yn cael ei ddisodli",
   "preview.readError": "Methu darllen manylion y pecyn hwn — gallwch ei osod o hyd",

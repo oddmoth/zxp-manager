@@ -25,7 +25,7 @@
   "preview.title.one": "Setja upp þessa viðbót?",
   "preview.title.many": "Setja upp þessar viðbætur (%d)?",
   "preview.title.done": "Uppsetningu lokið",
-  "preview.installsIn": "Sett upp í:",
+  "preview.installsIn": "Samhæft við:",
   "preview.notInstalled": "ekki uppsett",
   "preview.alreadyInstalled": "Þegar uppsett (útgáfa %@): henni verður skipt út",
   "preview.readError": "Ekki tókst að lesa upplýsingar pakkans — þú getur samt sett hann upp",

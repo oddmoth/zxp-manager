@@ -25,7 +25,7 @@
   "preview.title.one": "Cài đặt tiện ích mở rộng này?",
   "preview.title.many": "Cài đặt các tiện ích mở rộng này (%d)?",
   "preview.title.done": "Đã cài đặt xong",
-  "preview.installsIn": "Cài vào:",
+  "preview.installsIn": "Tương thích với:",
   "preview.notInstalled": "chưa cài đặt",
   "preview.alreadyInstalled": "Đã cài đặt (phiên bản %@): sẽ được thay thế",
   "preview.readError": "Không thể đọc thông tin của gói này — bạn vẫn có thể cài đặt",

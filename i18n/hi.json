@@ -25,7 +25,7 @@
   "preview.title.one": "यह एक्सटेंशन इंस्टॉल करें?",
   "preview.title.many": "ये एक्सटेंशन (%d) इंस्टॉल करें?",
   "preview.title.done": "इंस्टॉलेशन पूरा हुआ",
-  "preview.installsIn": "यहाँ इंस्टॉल होता है:",
+  "preview.installsIn": "इनके साथ संगत:",
   "preview.notInstalled": "इंस्टॉल नहीं है",
   "preview.alreadyInstalled": "पहले से इंस्टॉल है (संस्करण %@): इसे बदल दिया जाएगा",
   "preview.readError": "इस पैकेज का विवरण पढ़ा नहीं जा सका — आप फिर भी इसे इंस्टॉल कर सकते हैं",

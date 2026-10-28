@@ -25,7 +25,7 @@
   "preview.title.one": "Instalezi această extensie?",
   "preview.title.many": "Instalezi aceste extensii (%d)?",
   "preview.title.done": "Instalare finalizată",
-  "preview.installsIn": "Se instalează în:",
+  "preview.installsIn": "Compatibil cu:",
   "preview.notInstalled": "neinstalată",
   "preview.alreadyInstalled": "Deja instalată (versiunea %@): va fi înlocuită",
   "preview.readError": "Detaliile acestui pachet nu au putut fi citite — îl poți instala totuși",

@@ -25,7 +25,7 @@
   "preview.title.one": "Dës Extensioun installéieren?",
   "preview.title.many": "Dës Extensiounen (%d) installéieren?",
   "preview.title.done": "Installatioun ofgeschloss",
-  "preview.installsIn": "Gëtt installéiert an:",
+  "preview.installsIn": "Kompatibel mat:",
   "preview.notInstalled": "net installéiert",
   "preview.alreadyInstalled": "Scho installéiert (Versioun %@): gëtt ersat",
   "preview.readError": "D'Detailer vun dësem Package konnten net gelies ginn — Dir kënnt en awer installéieren",

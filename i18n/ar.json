@@ -25,7 +25,7 @@
   "preview.title.one": "هل تريد تثبيت هذا الامتداد؟",
   "preview.title.many": "هل تريد تثبيت هذه الامتدادات (%d)؟",
   "preview.title.done": "اكتمل التثبيت",
-  "preview.installsIn": "يُثبَّت في:",
+  "preview.installsIn": "متوافق مع:",
   "preview.notInstalled": "غير مثبت",
   "preview.alreadyInstalled": "مثبت بالفعل (الإصدار %@): سيتم استبداله",
   "preview.readError": "تعذّرت قراءة تفاصيل هذه الحزمة — لا يزال بإمكانك تثبيتها",

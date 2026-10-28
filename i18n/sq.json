@@ -25,7 +25,7 @@
   "preview.title.one": "Të instalohet kjo shtesë?",
   "preview.title.many": "Të instalohen këto shtesa (%d)?",
   "preview.title.done": "Instalimi përfundoi",
-  "preview.installsIn": "Instalohet në:",
+  "preview.installsIn": "I përputhshëm me:",
   "preview.notInstalled": "nuk është instaluar",
   "preview.alreadyInstalled": "Tashmë e instaluar (versioni %@): do të zëvendësohet",
   "preview.readError": "Detajet e kësaj pakete nuk mund të lexoheshin — gjithsesi mund ta instalosh",

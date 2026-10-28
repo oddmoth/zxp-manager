@@ -25,7 +25,7 @@
   "preview.title.one": "Vil du installere denne udvidelse?",
   "preview.title.many": "Vil du installere disse udvidelser (%d)?",
   "preview.title.done": "Installationen er fuldført",
-  "preview.installsIn": "Installeres i:",
+  "preview.installsIn": "Kompatibel med:",
   "preview.notInstalled": "ikke installeret",
   "preview.alreadyInstalled": "Allerede installeret (version %@): den bliver erstattet",
   "preview.readError": "Pakkens detaljer kunne ikke læses – du kan stadig installere den",

@@ -25,7 +25,7 @@
   "preview.title.one": "دا توسیع نصب شي؟",
   "preview.title.many": "دا توسیعونه (%d) نصب شي؟",
   "preview.title.done": "نصب بشپړ شو",
-  "preview.installsIn": "نصبېږي په:",
+  "preview.installsIn": "له دې سره مطابقت لري:",
   "preview.notInstalled": "نه دی نصب",
   "preview.alreadyInstalled": "دمخه نصب دی (نسخه %@): بدلېږي به",
   "preview.readError": "د دې کڅوړې جزئیات نه لوستل کېږي — بیا هم یې نصبولی شئ",

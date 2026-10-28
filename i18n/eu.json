@@ -25,7 +25,7 @@
   "preview.title.one": "Hedapen hau instalatu nahi duzu?",
   "preview.title.many": "Hedapen hauek (%d) instalatu nahi dituzu?",
   "preview.title.done": "Instalazioa osatu da",
-  "preview.installsIn": "Hemen instalatzen da:",
+  "preview.installsIn": "Honekin bateragarria:",
   "preview.notInstalled": "instalatu gabe",
   "preview.alreadyInstalled": "Instalatuta dago (%@ bertsioa): ordeztu egingo da",
   "preview.readError": "Ezin izan dira pakete honen xehetasunak irakurri — hala ere instala dezakezu",

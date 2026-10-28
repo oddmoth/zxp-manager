@@ -25,7 +25,7 @@
   "preview.title.one": "Želite namestiti to razširitev?",
   "preview.title.many": "Želite namestiti te razširitve (%d)?",
   "preview.title.done": "Namestitev je končana",
-  "preview.installsIn": "Namesti se v:",
+  "preview.installsIn": "Združljivo z:",
   "preview.notInstalled": "ni nameščeno",
   "preview.alreadyInstalled": "Že nameščeno (različica %@): bo zamenjano",
   "preview.readError": "Podrobnosti tega paketa ni bilo mogoče prebrati — kljub temu ga lahko namestite",

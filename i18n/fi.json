@@ -25,7 +25,7 @@
   "preview.title.one": "Asennetaanko tämä laajennus?",
   "preview.title.many": "Asennetaanko nämä laajennukset (%d)?",
   "preview.title.done": "Asennus valmis",
-  "preview.installsIn": "Asennetaan sovellukseen:",
+  "preview.installsIn": "Yhteensopiva sovellusten kanssa:",
   "preview.notInstalled": "ei asennettu",
   "preview.alreadyInstalled": "Jo asennettu (versio %@): se korvataan",
   "preview.readError": "Paketin tietoja ei voitu lukea – voit silti asentaa sen",

@@ -25,7 +25,7 @@
   "preview.title.one": "हे एक्स्टेंशन इन्स्टॉल करायचे?",
   "preview.title.many": "ही एक्स्टेंशन्स (%d) इन्स्टॉल करायची?",
   "preview.title.done": "इन्स्टॉलेशन पूर्ण झाले",
-  "preview.installsIn": "येथे इन्स्टॉल होते:",
+  "preview.installsIn": "यांच्याशी सुसंगत:",
   "preview.notInstalled": "इन्स्टॉल नाही",
   "preview.alreadyInstalled": "आधीच इन्स्टॉल आहे (आवृत्ती %@): ते बदलले जाईल",
   "preview.readError": "या पॅकेजचा तपशील वाचता आला नाही — तरीही तुम्ही ते इन्स्टॉल करू शकता",

@@ -25,7 +25,7 @@
   "preview.title.one": "Да се инсталира ли оваа екстензија?",
   "preview.title.many": "Да се инсталираат ли овие екстензии (%d)?",
   "preview.title.done": "Инсталацијата е завршена",
-  "preview.installsIn": "Се инсталира во:",
+  "preview.installsIn": "Компатибилно со:",
   "preview.notInstalled": "не е инсталирана",
   "preview.alreadyInstalled": "Веќе е инсталирана (верзија %@): ќе биде заменета",
   "preview.readError": "Деталите на овој пакет не можеа да се прочитаат — сепак можете да го инсталирате",

@@ -25,7 +25,7 @@
   "preview.title.one": "この拡張機能をインストールしますか？",
   "preview.title.many": "これらの拡張機能（%d 件）をインストールしますか？",
   "preview.title.done": "インストールが完了しました",
-  "preview.installsIn": "インストール先：",
+  "preview.installsIn": "対応アプリ：",
   "preview.notInstalled": "未インストール",
   "preview.alreadyInstalled": "インストール済み（バージョン %@）：置き換えられます",
   "preview.readError": "このパッケージの詳細を読み取れません — インストールは可能です",

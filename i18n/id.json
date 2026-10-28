@@ -25,7 +25,7 @@
   "preview.title.one": "Instal ekstensi ini?",
   "preview.title.many": "Instal ekstensi-ekstensi ini (%d)?",
   "preview.title.done": "Instalasi selesai",
-  "preview.installsIn": "Diinstal di:",
+  "preview.installsIn": "Kompatibel dengan:",
   "preview.notInstalled": "tidak terinstal",
   "preview.alreadyInstalled": "Sudah terinstal (versi %@): akan diganti",
   "preview.readError": "Tidak dapat membaca detail paket ini — Anda tetap bisa menginstalnya",

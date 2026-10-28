@@ -25,7 +25,7 @@
   "preview.title.one": "Deze extensie installeren?",
   "preview.title.many": "Deze extensies installeren (%d)?",
   "preview.title.done": "Installatie voltooid",
-  "preview.installsIn": "Wordt geïnstalleerd in:",
+  "preview.installsIn": "Compatibel met:",
   "preview.notInstalled": "niet geïnstalleerd",
   "preview.alreadyInstalled": "Al geïnstalleerd (versie %@): wordt vervangen",
   "preview.readError": "Kan de details van dit pakket niet lezen — je kunt het toch installeren",

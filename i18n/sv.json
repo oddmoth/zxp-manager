@@ -25,7 +25,7 @@
   "preview.title.one": "Installera det här tillägget?",
   "preview.title.many": "Installera de här tilläggen (%d)?",
   "preview.title.done": "Installationen är klar",
-  "preview.installsIn": "Installeras i:",
+  "preview.installsIn": "Kompatibel med:",
   "preview.notInstalled": "inte installerat",
   "preview.alreadyInstalled": "Redan installerat (version %@): det kommer att ersättas",
   "preview.readError": "Det gick inte att läsa paketets detaljer – du kan ändå installera det",

@@ -62,6 +62,12 @@ The app is not yet signed with a code-signing certificate, so Windows SmartScree
 
 On computers with **Smart App Control** turned on, unsigned apps are blocked without a "Run anyway" option, so ZXP Manager can't be opened there for now.
 
+## Good to know
+
+- **Photoshop on Apple Silicon Macs** loads `.zxp` panels only when it is opened with Rosetta: in Finder select Photoshop in Applications, choose **File → Get Info** and turn on **Open using Rosetta**. If the extension also comes as a `.ccx` file, install that one instead: it works without Rosetta.
+- **Signed extensions only**: Adobe apps load `.zxp` extensions only if they are signed by their developer. An unsigned package can be installed, but the app refuses to open it.
+- After installing or removing an extension, restart the Adobe app to see the change.
+
 ## Build from source
 
 Both apps are built automatically by GitHub Actions at every change: open the **Actions** tab, choose the latest **macOS build** or **Windows build** run and download the file at the bottom of the page.

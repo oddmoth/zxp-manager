@@ -5,7 +5,6 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Text;
-using System.Web.Script.Serialization;
 using System.Xml;
 
 namespace ZXPManager
@@ -90,7 +89,7 @@ namespace ZXPManager
             var json = ReadEntry(path, "manifest.json");
             if (json == null) { info.ReadError = Loc.T("preview.readError"); return; }
 
-            if (!(new JavaScriptSerializer().DeserializeObject(json) is IDictionary<string, object> obj))
+            if (!(Json.Parse(json) is IDictionary<string, object> obj))
             {
                 info.ReadError = Loc.T("preview.readError");
                 return;

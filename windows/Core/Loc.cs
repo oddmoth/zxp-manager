@@ -5,7 +5,6 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Web.Script.Serialization;
 
 namespace ZXPManager
 {
@@ -85,9 +84,10 @@ namespace ZXPManager
             using (stream)
             using (var reader = new StreamReader(stream, Encoding.UTF8))
             {
-                var raw = new JavaScriptSerializer().Deserialize<Dictionary<string, string>>(reader.ReadToEnd());
                 var result = new Dictionary<string, string>();
-                foreach (var pair in raw) result[pair.Key] = ConvertPlaceholders(pair.Value);
+                if (Json.Parse(reader.ReadToEnd()) is Dictionary<string, object> raw)
+                    foreach (var pair in raw)
+                        if (pair.Value is string text) result[pair.Key] = ConvertPlaceholders(text);
                 return result;
             }
         }

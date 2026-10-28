@@ -106,11 +106,19 @@ namespace ZXPManager
 
         // MARK: log
 
-        public void AppendLog(string title, string text)
+        /// <summary>Adds a line to the details panel; <paramref name="text"/>, when given, is shown below it.</summary>
+        public void AppendLog(string title, string text = null)
         {
-            var body = (text ?? "").Trim();
-            if (body.Length == 0) body = Loc.T("log.noOutput");
-            LogBox.AppendText("▸ " + title + Environment.NewLine + body + Environment.NewLine + Environment.NewLine);
+            if (text == null)
+            {
+                LogBox.AppendText("▸ " + title + Environment.NewLine + Environment.NewLine);
+            }
+            else
+            {
+                var body = text.Trim();
+                if (body.Length == 0) body = Loc.T("log.noOutput");
+                LogBox.AppendText("▸ " + title + Environment.NewLine + body + Environment.NewLine + Environment.NewLine);
+            }
             LogBox.ScrollToEnd();
             LogPlaceholder.Visibility = Visibility.Collapsed;
         }
@@ -205,7 +213,10 @@ namespace ZXPManager
 
             SetBusy(true);
             var result = await Upia.RunAsync("/remove", ext.Name);
-            AppendLog(Loc.F("log.removing", ext.Name), result.Output);
+            if (Upia.Succeeded(result.Output))
+                AppendLog(Loc.F("log.removed", ext.Name));
+            else
+                AppendLog(Loc.F("log.removeFailed", ext.Name), result.Output); // Adobe's message only on errors
             SetBusy(false);
             await RefreshAsync();
         }

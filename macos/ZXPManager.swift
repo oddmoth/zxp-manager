@@ -331,10 +331,14 @@ final class Model: ObservableObject {
             previewItems[i].outcome = .running
             let item = previewItems[i]
             let result = await UPIA.run(["--install", item.url.path])
-            appendLog(LF("log.installing", item.url.lastPathComponent), result.output)
-            previewItems[i].outcome = UPIA.succeeded(result.output)
-                ? .success
-                : .failure(UPIA.lastLine(result.output))
+            if UPIA.succeeded(result.output) {
+                appendLog(LF("log.installed", item.name))
+                previewItems[i].outcome = .success
+            } else {
+                // Adobe's own message is only shown when something goes wrong
+                appendLog(LF("log.installFailed", item.name), result.output)
+                previewItems[i].outcome = .failure(UPIA.lastLine(result.output))
+            }
         }
         busy = false
         await refresh()
@@ -349,12 +353,21 @@ final class Model: ObservableObject {
         guard !busy else { return }
         busy = true
         let result = await UPIA.run(["--remove", ext.name])
-        appendLog(LF("log.removing", ext.name), result.output)
+        if UPIA.succeeded(result.output) {
+            appendLog(LF("log.removed", ext.name))
+        } else {
+            appendLog(LF("log.removeFailed", ext.name), result.output)
+        }
         busy = false
         await refresh()
     }
 
-    func appendLog(_ title: String, _ text: String) {
+    /// Adds a line to the details panel; `text`, when given, is shown below it.
+    func appendLog(_ title: String, _ text: String? = nil) {
+        guard let text else {
+            log += "▸ \(title)\n\n"
+            return
+        }
         let body = text.trimmingCharacters(in: .whitespacesAndNewlines)
         log += "▸ \(title)\n\(body.isEmpty ? L("log.noOutput") : body)\n\n"
     }

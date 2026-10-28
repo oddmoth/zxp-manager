@@ -57,14 +57,15 @@ namespace ZXPManager
                 UpdateCard(package);
 
                 var result = await Upia.RunAsync("/install", package.Path);
-                main.AppendLog(Loc.F("log.installing", package.FileName), result.Output);
-
                 if (Upia.Succeeded(result.Output))
                 {
+                    main.AppendLog(Loc.F("log.installed", package.Name));
                     package.Outcome = Outcome.Success;
                 }
                 else
                 {
+                    // Adobe's own message is only shown when something goes wrong
+                    main.AppendLog(Loc.F("log.installFailed", package.Name), result.Output);
                     package.Outcome = Outcome.Failure;
                     package.FailureMessage = Upia.LastLine(result.Output);
                 }

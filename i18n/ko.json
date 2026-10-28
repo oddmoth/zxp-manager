@@ -13,8 +13,6 @@
   "log.listTitle": "확장 프로그램 목록",
   "log.ignored": "무시됨",
   "log.ignoredDetail": "%@: .zxp 및 .ccx 파일만 지원됩니다.",
-  "log.wait": "잠시 기다려 주세요",
-  "log.waitDetail": "이미 진행 중인 작업이 있습니다. 잠시 후 다시 시도하세요.",
   "log.installed": "%@: 설치 완료",
   "log.installFailed": "%@: 설치 실패. Adobe 메시지:",
   "log.removed": "%@: 제거 완료",

@@ -13,8 +13,6 @@
   "log.listTitle": "Zoznam rozšírení",
   "log.ignored": "Ignorované",
   "log.ignoredDetail": "%@: podporované sú iba súbory .zxp a .ccx.",
-  "log.wait": "Počkajte, prosím",
-  "log.waitDetail": "Už prebieha iná operácia. Skúste to znova o chvíľu.",
   "log.installed": "%@: inštalácia dokončená",
   "log.installFailed": "%@: inštalácia zlyhala. Správa od Adobe:",
   "log.removed": "%@: odstránenie dokončené",

@@ -13,8 +13,6 @@
   "log.listTitle": "Paplašinājumu saraksts",
   "log.ignored": "Ignorēts",
   "log.ignoredDetail": "%@: tiek atbalstīti tikai .zxp un .ccx faili.",
-  "log.wait": "Lūdzu, uzgaidiet",
-  "log.waitDetail": "Jau notiek cita darbība. Mēģiniet vēlreiz pēc brīža.",
   "log.installed": "%@: instalēšana pabeigta",
   "log.installFailed": "%@: instalēšana neizdevās. Adobe ziņojums:",
   "log.removed": "%@: noņemšana pabeigta",

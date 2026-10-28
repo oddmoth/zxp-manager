@@ -13,8 +13,6 @@
   "log.listTitle": "Lista tal-estensjonijiet",
   "log.ignored": "Injorat",
   "log.ignoredDetail": "%@: huma appoġġati biss fajls .zxp u .ccx.",
-  "log.wait": "Jekk jogħġbok stenna",
-  "log.waitDetail": "Operazzjoni oħra għaddejja diġà. Erġa' pprova ftit wara.",
   "log.installed": "%@: l-installazzjoni tlestiet",
   "log.installFailed": "%@: l-installazzjoni falliet. Messaġġ minn Adobe:",
   "log.removed": "%@: it-tneħħija tlestiet",

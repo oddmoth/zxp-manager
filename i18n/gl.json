@@ -13,8 +13,6 @@
   "log.listTitle": "Lista de extensións",
   "log.ignored": "Ignorado",
   "log.ignoredDetail": "%@: só se admiten ficheiros .zxp e .ccx.",
-  "log.wait": "Agarda",
-  "log.waitDetail": "Xa hai outra operación en curso. Téntao de novo nun momento.",
   "log.installed": "%@: instalación completada",
   "log.installFailed": "%@: a instalación fallou. Mensaxe de Adobe:",
   "log.removed": "%@: eliminación completada",

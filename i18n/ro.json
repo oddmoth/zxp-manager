@@ -13,8 +13,6 @@
   "log.listTitle": "Lista extensiilor",
   "log.ignored": "Ignorat",
   "log.ignoredDetail": "%@: sunt acceptate doar fișierele .zxp și .ccx.",
-  "log.wait": "Te rugăm să aștepți",
-  "log.waitDetail": "O altă operațiune este deja în curs. Încearcă din nou peste puțin timp.",
   "log.installed": "%@: instalare finalizată",
   "log.installFailed": "%@: instalarea a eșuat. Mesaj de la Adobe:",
   "log.removed": "%@: eliminare finalizată",

@@ -13,8 +13,6 @@
   "log.listTitle": "د توسیعونو لېست",
   "log.ignored": "له پامه وغورځول شو",
   "log.ignoredDetail": "%@: یوازې .zxp او .ccx فایلونه ملاتړ کېږي.",
-  "log.wait": "مهرباني وکړئ انتظار وکړئ",
-  "log.waitDetail": "بله عملیه روانه ده. لږ وروسته بیا هڅه وکړئ.",
   "log.installed": "%@: نصب بشپړ شو",
   "log.installFailed": "%@: نصب ناکام شو. د Adobe پیغام:",
   "log.removed": "%@: لرې کول بشپړ شول",

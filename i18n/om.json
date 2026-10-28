@@ -13,8 +13,6 @@
   "log.listTitle": "Tarree dabalataa",
   "log.ignored": "Bira darbame",
   "log.ignoredDetail": "%@: faayiloota .zxp fi .ccx qofatu deeggarama.",
-  "log.wait": "Maaloo eegi",
-  "log.waitDetail": "Hojiin biraa adeemsa irra jira. Yeroo muraasaan booda irra deebi'ii yaali.",
   "log.installed": "%@: fe'uun xumurame",
   "log.installFailed": "%@: fe'uun hin milkoofne. Ergaa Adobe:",
   "log.removed": "%@: haquun xumurame",

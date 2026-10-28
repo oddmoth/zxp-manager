@@ -13,8 +13,6 @@
   "log.listTitle": "Daftar ekstensi",
   "log.ignored": "Diabaikan",
   "log.ignoredDetail": "%@: hanya file .zxp dan .ccx yang didukung.",
-  "log.wait": "Harap tunggu",
-  "log.waitDetail": "Operasi lain sedang berlangsung. Coba lagi sebentar lagi.",
   "log.installed": "%@: instalasi selesai",
   "log.installFailed": "%@: instalasi gagal. Pesan dari Adobe:",
   "log.removed": "%@: penghapusan selesai",

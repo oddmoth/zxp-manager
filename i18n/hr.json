@@ -13,8 +13,6 @@
   "log.listTitle": "Popis proširenja",
   "log.ignored": "Zanemareno",
   "log.ignoredDetail": "%@: podržane su samo datoteke .zxp i .ccx.",
-  "log.wait": "Pričekaj",
-  "log.waitDetail": "Već je u tijeku druga radnja. Pokušaj ponovno za trenutak.",
   "log.installed": "%@: instalacija dovršena",
   "log.installFailed": "%@: instalacija nije uspjela. Poruka tvrtke Adobe:",
   "log.removed": "%@: uklanjanje dovršeno",

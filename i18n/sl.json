@@ -13,8 +13,6 @@
   "log.listTitle": "Seznam razširitev",
   "log.ignored": "Prezrto",
   "log.ignoredDetail": "%@: podprte so samo datoteke .zxp in .ccx.",
-  "log.wait": "Počakajte",
-  "log.waitDetail": "Druga operacija že poteka. Poskusite znova čez trenutek.",
   "log.installed": "%@: namestitev je končana",
   "log.installFailed": "%@: namestitev ni uspela. Sporočilo družbe Adobe:",
   "log.removed": "%@: odstranitev je končana",

@@ -13,8 +13,6 @@
   "log.listTitle": "Rhestr estyniadau",
   "log.ignored": "Anwybyddwyd",
   "log.ignoredDetail": "%@: dim ond ffeiliau .zxp a .ccx sy'n cael eu cefnogi.",
-  "log.wait": "Arhoswch",
-  "log.waitDetail": "Mae gweithred arall ar y gweill eisoes. Rhowch gynnig arall arni mewn ychydig.",
   "log.installed": "%@: gosod wedi'i gwblhau",
   "log.installFailed": "%@: methodd y gosod. Neges gan Adobe:",
   "log.removed": "%@: tynnu wedi'i gwblhau",

@@ -13,8 +13,6 @@
   "log.listTitle": "قائمة الامتدادات",
   "log.ignored": "تم التجاهل",
   "log.ignoredDetail": "%@: الملفات المدعومة هي .zxp و.ccx فقط.",
-  "log.wait": "يُرجى الانتظار",
-  "log.waitDetail": "هناك عملية أخرى قيد التنفيذ. حاول مرة أخرى بعد قليل.",
   "log.installed": "%@: اكتمل التثبيت",
   "log.installFailed": "%@: فشل التثبيت. رسالة Adobe:",
   "log.removed": "%@: اكتملت الإزالة",

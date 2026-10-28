@@ -13,8 +13,6 @@
   "log.listTitle": "Uzantı listesi",
   "log.ignored": "Yok sayıldı",
   "log.ignoredDetail": "%@: yalnızca .zxp ve .ccx dosyaları desteklenir.",
-  "log.wait": "Lütfen bekleyin",
-  "log.waitDetail": "Devam eden başka bir işlem var. Biraz sonra tekrar deneyin.",
   "log.installed": "%@: yükleme tamamlandı",
   "log.installFailed": "%@: yükleme başarısız oldu. Adobe'nin mesajı:",
   "log.removed": "%@: kaldırma tamamlandı",

@@ -13,8 +13,6 @@
   "log.listTitle": "Lista över tillägg",
   "log.ignored": "Ignorerades",
   "log.ignoredDetail": "%@: endast .zxp- och .ccx-filer stöds.",
-  "log.wait": "Vänta",
-  "log.waitDetail": "En annan åtgärd pågår redan. Försök igen om en stund.",
   "log.installed": "%@: installationen är klar",
   "log.installFailed": "%@: installationen misslyckades. Meddelande från Adobe:",
   "log.removed": "%@: borttagningen är klar",

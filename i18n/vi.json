@@ -13,8 +13,6 @@
   "log.listTitle": "Danh sách tiện ích mở rộng",
   "log.ignored": "Đã bỏ qua",
   "log.ignoredDetail": "%@: chỉ hỗ trợ tệp .zxp và .ccx.",
-  "log.wait": "Vui lòng chờ",
-  "log.waitDetail": "Đang có thao tác khác được thực hiện. Hãy thử lại sau giây lát.",
   "log.installed": "%@: đã cài đặt xong",
   "log.installFailed": "%@: cài đặt không thành công. Thông báo từ Adobe:",
   "log.removed": "%@: đã xóa xong",

@@ -13,8 +13,6 @@
   "log.listTitle": "延伸功能列表",
   "log.ignored": "已略過",
   "log.ignoredDetail": "%@：僅支援 .zxp 和 .ccx 檔案。",
-  "log.wait": "請稍候",
-  "log.waitDetail": "已有作業正在進行，請稍後再試。",
   "log.installed": "%@：安裝完成",
   "log.installFailed": "%@：安裝失敗。Adobe 的訊息：",
   "log.removed": "%@：移除完成",

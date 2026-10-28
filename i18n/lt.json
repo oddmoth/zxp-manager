@@ -13,8 +13,6 @@
   "log.listTitle": "Plėtinių sąrašas",
   "log.ignored": "Praleista",
   "log.ignoredDetail": "%@: palaikomi tik .zxp ir .ccx failai.",
-  "log.wait": "Palaukite",
-  "log.waitDetail": "Jau vykdomas kitas veiksmas. Netrukus bandykite dar kartą.",
   "log.installed": "%@: įdiegimas baigtas",
   "log.installFailed": "%@: įdiegti nepavyko. Adobe pranešimas:",
   "log.removed": "%@: pašalinimas baigtas",

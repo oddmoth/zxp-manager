@@ -13,8 +13,6 @@
   "log.listTitle": "Laienduste loend",
   "log.ignored": "Eirati",
   "log.ignoredDetail": "%@: toetatud on ainult .zxp- ja .ccx-failid.",
-  "log.wait": "Oodake",
-  "log.waitDetail": "Üks toiming on juba pooleli. Proovige mõne aja pärast uuesti.",
   "log.installed": "%@: installimine on lõpetatud",
   "log.installFailed": "%@: installimine nurjus. Adobe teade:",
   "log.removed": "%@: eemaldamine on lõpetatud",

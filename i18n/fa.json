@@ -13,8 +13,6 @@
   "log.listTitle": "فهرست افزونه‌ها",
   "log.ignored": "نادیده گرفته شد",
   "log.ignoredDetail": "%@: فقط فایل‌های .zxp و .ccx پشتیبانی می‌شوند.",
-  "log.wait": "لطفاً صبر کنید",
-  "log.waitDetail": "عملیات دیگری در حال انجام است. کمی بعد دوباره امتحان کنید.",
   "log.installed": "%@: نصب کامل شد",
   "log.installFailed": "%@: نصب ناموفق بود. پیام Adobe:",
   "log.removed": "%@: حذف کامل شد",

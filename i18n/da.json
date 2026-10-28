@@ -13,8 +13,6 @@
   "log.listTitle": "Liste over udvidelser",
   "log.ignored": "Ignoreret",
   "log.ignoredDetail": "%@: kun .zxp- og .ccx-filer understøttes.",
-  "log.wait": "Vent venligst",
-  "log.waitDetail": "En anden handling er allerede i gang. Prøv igen om lidt.",
   "log.installed": "%@: installationen er fuldført",
   "log.installFailed": "%@: installationen mislykkedes. Besked fra Adobe:",
   "log.removed": "%@: fjernelsen er fuldført",

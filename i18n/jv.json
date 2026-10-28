@@ -13,8 +13,6 @@
   "log.listTitle": "Dhaptar ekstensi",
   "log.ignored": "Dilewati",
   "log.ignoredDetail": "%@: mung berkas .zxp lan .ccx sing didhukung.",
-  "log.wait": "Mangga ngenteni",
-  "log.waitDetail": "Isih ana operasi liyane sing lagi mlaku. Coba maneh sedhela engkas.",
   "log.installed": "%@: pamasangan rampung",
   "log.installFailed": "%@: pamasangan gagal. Pesen saka Adobe:",
   "log.removed": "%@: pambusakan rampung",

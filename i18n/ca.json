@@ -13,8 +13,6 @@
   "log.listTitle": "Llista d'extensions",
   "log.ignored": "Ignorat",
   "log.ignoredDetail": "%@: només s'admeten fitxers .zxp i .ccx.",
-  "log.wait": "Espera",
-  "log.waitDetail": "Ja hi ha una altra operació en curs. Torna-ho a provar d'aquí a una estona.",
   "log.installed": "%@: instal·lació completada",
   "log.installFailed": "%@: la instal·lació ha fallat. Missatge d'Adobe:",
   "log.removed": "%@: eliminació completada",

@@ -13,8 +13,6 @@
   "log.listTitle": "Àtòjọ àwọn àfikún",
   "log.ignored": "A fò ó",
   "log.ignoredDetail": "%@: fáìlì .zxp àti .ccx nìkan ni a ṣe àtìlẹ́yìn fún.",
-  "log.wait": "Jọ̀wọ́ dúró",
-  "log.waitDetail": "Iṣẹ́ míì ń lọ lọ́wọ́. Gbìyànjú lẹ́ẹ̀kan sí i láìpẹ́.",
   "log.installed": "%@: ìfisori ẹrọ ti parí",
   "log.installFailed": "%@: ìfisori ẹrọ kùnà. Ìfiránṣẹ́ láti ọ̀dọ̀ Adobe:",
   "log.removed": "%@: yíyọ kuro ti parí",

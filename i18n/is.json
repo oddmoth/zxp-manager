@@ -13,8 +13,6 @@
   "log.listTitle": "Listi yfir viðbætur",
   "log.ignored": "Hunsað",
   "log.ignoredDetail": "%@: aðeins .zxp- og .ccx-skrár eru studdar.",
-  "log.wait": "Augnablik",
-  "log.waitDetail": "Önnur aðgerð er þegar í gangi. Reyndu aftur eftir smástund.",
   "log.installed": "%@: uppsetningu lokið",
   "log.installFailed": "%@: uppsetning mistókst. Skilaboð frá Adobe:",
   "log.removed": "%@: fjarlægingu lokið",

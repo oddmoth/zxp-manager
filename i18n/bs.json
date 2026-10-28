@@ -13,8 +13,6 @@
   "log.listTitle": "Lista ekstenzija",
   "log.ignored": "Zanemareno",
   "log.ignoredDetail": "%@: podržani su samo .zxp i .ccx fajlovi.",
-  "log.wait": "Sačekajte",
-  "log.waitDetail": "Već je u toku druga operacija. Pokušajte ponovo za trenutak.",
   "log.installed": "%@: instalacija završena",
   "log.installFailed": "%@: instalacija nije uspjela. Poruka kompanije Adobe:",
   "log.removed": "%@: uklanjanje završeno",

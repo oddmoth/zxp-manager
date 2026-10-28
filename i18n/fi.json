@@ -13,8 +13,6 @@
   "log.listTitle": "Laajennusluettelo",
   "log.ignored": "Ohitettu",
   "log.ignoredDetail": "%@: vain .zxp- ja .ccx-tiedostoja tuetaan.",
-  "log.wait": "Odota",
-  "log.waitDetail": "Toinen toiminto on jo käynnissä. Yritä hetken kuluttua uudelleen.",
   "log.installed": "%@: asennus valmis",
   "log.installFailed": "%@: asennus epäonnistui. Adoben viesti:",
   "log.removed": "%@: poisto valmis",

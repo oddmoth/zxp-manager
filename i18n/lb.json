@@ -13,8 +13,6 @@
   "log.listTitle": "Lëscht vun den Extensiounen",
   "log.ignored": "Ignoréiert",
   "log.ignoredDetail": "%@: et ginn nëmmen .zxp- an .ccx-Dateien ënnerstëtzt.",
-  "log.wait": "Waart w.e.g.",
-  "log.waitDetail": "Eng aner Operatioun leeft schonn. Probéiert et an engem Moment nach eng Kéier.",
   "log.installed": "%@: Installatioun ofgeschloss",
   "log.installFailed": "%@: Installatioun feelgeschloen. Message vun Adobe:",
   "log.removed": "%@: Ewechhuelen ofgeschloss",

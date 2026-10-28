@@ -13,8 +13,6 @@
   "log.listTitle": "Hedapenen zerrenda",
   "log.ignored": "Ez ikusi egin zaio",
   "log.ignoredDetail": "%@: .zxp eta .ccx fitxategiak soilik onartzen dira.",
-  "log.wait": "Itxaron",
-  "log.waitDetail": "Beste eragiketa bat abian da dagoeneko. Saiatu berriro pixka bat barru.",
   "log.installed": "%@: instalazioa osatu da",
   "log.installFailed": "%@: instalazioak huts egin du. Adoberen mezua:",
   "log.removed": "%@: kentzea osatu da",

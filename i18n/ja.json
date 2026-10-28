@@ -13,8 +13,6 @@
   "log.listTitle": "拡張機能リスト",
   "log.ignored": "スキップしました",
   "log.ignoredDetail": "%@：対応しているのは .zxp と .ccx ファイルのみです。",
-  "log.wait": "お待ちください",
-  "log.waitDetail": "別の処理を実行中です。しばらくしてからもう一度お試しください。",
   "log.installed": "%@：インストールが完了しました",
   "log.installFailed": "%@：インストールに失敗しました。Adobe からのメッセージ：",
   "log.removed": "%@：削除が完了しました",

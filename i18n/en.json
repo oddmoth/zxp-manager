@@ -13,8 +13,6 @@
   "log.listTitle": "Extension list",
   "log.ignored": "Ignored",
   "log.ignoredDetail": "%@: only .zxp and .ccx files are supported.",
-  "log.wait": "Please wait",
-  "log.waitDetail": "Another operation is in progress. Try again shortly.",
   "log.installed": "%@: installation complete",
   "log.installFailed": "%@: installation failed. Message from Adobe:",
   "log.removed": "%@: removal complete",

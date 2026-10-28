@@ -13,8 +13,6 @@
   "log.listTitle": "Lista e shtesave",
   "log.ignored": "U shpërfill",
   "log.ignoredDetail": "%@: mbështeten vetëm skedarët .zxp dhe .ccx.",
-  "log.wait": "Prit",
-  "log.waitDetail": "Një veprim tjetër është duke u kryer. Provo përsëri pas pak.",
   "log.installed": "%@: instalimi përfundoi",
   "log.installFailed": "%@: instalimi dështoi. Mesazh nga Adobe:",
   "log.removed": "%@: heqja përfundoi",

@@ -13,8 +13,6 @@
   "log.listTitle": "Bővítmények listája",
   "log.ignored": "Kihagyva",
   "log.ignoredDetail": "%@: csak .zxp és .ccx fájlok támogatottak.",
-  "log.wait": "Kérjük, várjon",
-  "log.waitDetail": "Már folyamatban van egy másik művelet. Próbálja újra egy kicsit később.",
   "log.installed": "%@: a telepítés befejeződött",
   "log.installFailed": "%@: a telepítés sikertelen. Az Adobe üzenete:",
   "log.removed": "%@: az eltávolítás befejeződött",

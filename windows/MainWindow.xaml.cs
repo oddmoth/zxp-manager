@@ -18,6 +18,7 @@ namespace ZXPManager
         private bool busy;
         private bool showEmptyApps;
         private bool previewOpen;
+        private readonly List<string> queuedFiles = new List<string>();
 
         public MainWindow()
         {
@@ -70,6 +71,16 @@ namespace ZXPManager
             if (apps.Count == 0) AppendLog(Loc.T("log.listTitle"), result.Output);
             SetBusy(false);
             RebuildList();
+            await ProcessQueueAsync();
+        }
+
+        /// <summary>Files received while the app was busy are previewed as soon as it is free.</summary>
+        private async Task ProcessQueueAsync()
+        {
+            if (queuedFiles.Count == 0 || busy || previewOpen) return;
+            var next = queuedFiles.ToList();
+            queuedFiles.Clear();
+            await PrepareAsync(next);
         }
 
         private void RebuildList()
@@ -136,7 +147,9 @@ namespace ZXPManager
 
             if (busy || previewOpen)
             {
-                AppendLog(Loc.T("log.wait"), Loc.T("log.waitDetail"));
+                // Busy (refreshing, installing, preview open): keep the files for later instead of rejecting them
+                foreach (var file in valid)
+                    if (!queuedFiles.Contains(file, StringComparer.OrdinalIgnoreCase)) queuedFiles.Add(file);
                 return;
             }
 
@@ -158,6 +171,7 @@ namespace ZXPManager
             {
                 previewOpen = false;
             }
+            await ProcessQueueAsync();
         }
 
         private async void Add_Click(object sender, RoutedEventArgs e)

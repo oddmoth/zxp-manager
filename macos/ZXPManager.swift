@@ -300,7 +300,17 @@ final class Model: ObservableObject {
 
     // Preview of the packages about to be installed
     @Published var previewItems: [PackageInfo] = []
-    @Published var showingPreview = false
+    @Published var showingPreview = false {
+        didSet {
+            // Files that arrived while the preview was open are shown once it closes
+            if !showingPreview { Task { await processQueue() } }
+        }
+    }
+
+    /// Files received while the app was busy (refreshing, installing, preview open):
+    /// they are previewed as soon as it is free, instead of being rejected.
+    private var queuedURLs: [URL] = []
+    private var preparing = false
 
     var previewStarted: Bool { previewItems.contains { $0.outcome != .pending } }
     var previewFinished: Bool {
@@ -313,21 +323,31 @@ final class Model: ObservableObject {
         apps = UPIA.parseList(result.output)
         if apps.isEmpty { appendLog(L("log.listTitle"), result.output) }
         busy = false
+        await processQueue()
     }
 
-    /// Reads the packages and opens the preview (entry point for drag & drop, "+" and the Dock).
+    private func processQueue() async {
+        guard !queuedURLs.isEmpty, !busy, !showingPreview, !preparing else { return }
+        let next = queuedURLs
+        queuedURLs = []
+        await prepare(next)
+    }
+
+    /// Reads the packages and opens the preview (entry point for drag & drop, "+", the Dock and double-click).
     func prepare(_ urls: [URL]) async {
         let valid = urls.filter { supportedExtensions.contains($0.pathExtension.lowercased()) }
         for skipped in urls where !valid.contains(skipped) {
             appendLog(L("log.ignored"), LF("log.ignoredDetail", skipped.lastPathComponent))
         }
         guard !valid.isEmpty else { return }
-        guard !busy, !showingPreview else {
-            appendLog(L("log.wait"), L("log.waitDetail"))
+        guard !busy, !showingPreview, !preparing else {
+            queuedURLs.append(contentsOf: valid.filter { !queuedURLs.contains($0) })
             return
         }
 
+        preparing = true
         var items = await Task.detached { valid.map { PackageReader.read($0) } }.value
+        preparing = false
 
         let installed = apps.flatMap { $0.extensions }
         for i in items.indices {

@@ -13,8 +13,6 @@
   "log.listTitle": "Liosta síntí",
   "log.ignored": "Rinneadh neamhaird de",
   "log.ignoredDetail": "%@: ní thacaítear ach le comhaid .zxp agus .ccx.",
-  "log.wait": "Fan, le do thoil",
-  "log.waitDetail": "Tá oibríocht eile ar siúl cheana. Bain triail eile as ar ball.",
   "log.installed": "%@: suiteáil críochnaithe",
   "log.installFailed": "%@: theip ar an tsuiteáil. Teachtaireacht ó Adobe:",
   "log.removed": "%@: baint críochnaithe",

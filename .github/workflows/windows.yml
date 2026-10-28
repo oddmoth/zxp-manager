@@ -1,0 +1,31 @@
+   name: Windows build
+
+   on:
+     push:
+       branches: [main]
+       paths:
+         - "windows/**"
+         - "i18n/**"
+         - ".github/workflows/windows.yml"
+     workflow_dispatch:
+
+   jobs:
+     build:
+       runs-on: windows-latest
+       steps:
+         - name: Get the code
+           uses: actions/checkout@v4
+
+         - name: Build ZXP Manager
+           run: dotnet build windows/ZXPManager.csproj --configuration Release --output out
+
+         - name: Show the result
+           shell: pwsh
+           run: Get-Item out/ZXPManager.exe | Format-List Name, Length, VersionInfo
+
+         - name: Make the exe downloadable
+           uses: actions/upload-artifact@v4
+           with:
+             name: ZXPManager-windows
+             path: out/ZXPManager.exe
+             if-no-files-found: error

@@ -17,7 +17,7 @@
 - **Preview before installing**: name, version and target apps (After Effects, Photoshop, Illustrator…) are read from the package, and you're told if the extension is already installed
 - **See everything that is installed**, grouped by Adobe app
 - **Remove** extensions with one click
-- **38 languages**, following your system language
+- **64 languages**, following your system language
 - **Native and lightweight**: SwiftUI on macOS, WPF on Windows. No bundled browser engine: a few MB instead of hundreds
 
 ## Requirements

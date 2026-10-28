@@ -57,6 +57,7 @@
                Style="{StaticResource ExtensionListBox}"
                ItemContainerStyle="{StaticResource ExtensionItemStyle}"
                SelectionMode="Single"
+               IsSynchronizedWithCurrentItem="False"
                SelectionChanged="ExtensionList_SelectionChanged"
                KeyDown="ExtensionList_KeyDown">
         <ListBox.GroupStyle>

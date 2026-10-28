@@ -1,0 +1,21 @@
+<Window x:Class="ZXPManager.ConfirmWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ZXPManager"
+        Title="ZXP Manager"
+        Width="420" SizeToContent="Height" ResizeMode="NoResize"
+        ShowInTaskbar="False" WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource WindowBg}" Foreground="{DynamicResource Fg}"
+        FontFamily="Segoe UI" FontSize="13"
+        UseLayoutRounding="True" TextOptions.TextFormattingMode="Display">
+  <StackPanel Margin="22,20,22,20">
+    <TextBlock Text="{local:Tr remove.confirm.title}" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" />
+    <TextBlock Text="{local:Tr remove.confirm.message}" Margin="0,8,0,20" TextWrapping="Wrap"
+               Foreground="{DynamicResource FgSecondary}" />
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+      <Button x:Name="CancelButton" Style="{StaticResource DialogButton}" Content="{local:Tr button.cancel}"
+              IsCancel="True" Margin="0,0,8,0" />
+      <Button x:Name="RemoveButton" Style="{StaticResource DangerButton}" Click="Remove_Click" />
+    </StackPanel>
+  </StackPanel>
+</Window>

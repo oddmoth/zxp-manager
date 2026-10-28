@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>ZXPManager</AssemblyName>
+    <RootNamespace>ZXPManager</RootNamespace>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DebugType>none</DebugType>
+    <!-- Allows building on non-Windows machines for syntax checks -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+
+    <Version>1.2.0</Version>
+    <Product>ZXP Manager</Product>
+    <Company>Odd Moth</Company>
+    <Copyright>© 2026 Odd Moth · MIT License</Copyright>
+    <Description>Install, list and remove Adobe Creative Cloud extensions</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- .NET Framework 4.8 reference assemblies, so any machine with the .NET SDK can build -->
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Shared translations (same files as the macOS app), embedded in the exe -->
+    <EmbeddedResource Include="..\i18n\*.json" LogicalName="i18n.%(Filename).json" />
+    <Resource Include="AppIcon.ico" />
+  </ItemGroup>
+
+</Project>

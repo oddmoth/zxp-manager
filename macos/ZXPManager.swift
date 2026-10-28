@@ -27,6 +27,12 @@ func LF(_ key: String, _ args: CVarArg...) -> String {
     String(format: L(key), locale: Locale.current, arguments: args)
 }
 
+/// Writing direction of the language the app is actually running in (e.g. Arabic → right to left).
+let appLayoutDirection: LayoutDirection = {
+    let language = Bundle.main.preferredLocalizations.first ?? "en"
+    return Locale.Language(identifier: language).characterDirection == .rightToLeft ? .rightToLeft : .leftToRight
+}()
+
 /// "If After Effects is running, quit and reopen it…" — names the app when there is exactly one.
 func restartHint(_ appNames: [String]) -> String {
     var unique: [String] = []
@@ -647,7 +653,7 @@ struct ContentView: View {
     private var logPanel: some View {
         ScrollView {
             Text(model.log.isEmpty ? L("log.placeholder") : model.log)
-                .font(.system(.caption, design: .monospaced))
+                .font(.callout)
                 .foregroundStyle(model.log.isEmpty ? .secondary : .primary)
                 .textSelection(.enabled)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -694,6 +700,7 @@ struct ContentView: View {
         }
         .sheet(isPresented: $model.showingPreview) {
             PreviewSheet(model: model)
+                .environment(\.layoutDirection, appLayoutDirection)
         }
         .confirmationDialog(
             L("remove.confirm.title"),
@@ -749,11 +756,20 @@ struct ZXPManagerApp: App {
         // register(defaults:) only sets the fallback: a value set by the user with
         // `defaults write com.oddmoth.zxpmanager NSInitialToolTipDelay` still wins.
         UserDefaults.standard.register(defaults: ["NSInitialToolTipDelay": 500])
+
+        // Right-to-left languages (Arabic, Persian, Urdu, Pashto): also mirror the window chrome
+        if appLayoutDirection == .rightToLeft {
+            UserDefaults.standard.register(defaults: [
+                "AppleTextDirection": true,
+                "NSForceRightToLeftWritingDirection": true,
+            ])
+        }
     }
 
     var body: some Scene {
         Window("ZXP Manager", id: "main") {
             ContentView()
+                .environment(\.layoutDirection, appLayoutDirection)
         }
     }
 }

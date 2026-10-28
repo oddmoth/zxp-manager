@@ -145,10 +145,10 @@
     <Grid Grid.Row="3" Background="{DynamicResource PanelBg}">
       <TextBox x:Name="LogBox" IsReadOnly="True" BorderThickness="0" Background="Transparent"
                Foreground="{DynamicResource Fg}" CaretBrush="{DynamicResource Fg}"
-               FontFamily="Consolas" FontSize="11.5" Padding="8,6"
+               FontSize="12" Padding="8,6"
                TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" />
       <TextBlock x:Name="LogPlaceholder" Text="{local:Tr log.placeholder}" Margin="12,8"
-                 FontFamily="Consolas" FontSize="11.5" IsHitTestVisible="False"
+                 FontSize="12" IsHitTestVisible="False"
                  Foreground="{DynamicResource FgSecondary}" TextWrapping="Wrap" />
     </Grid>
   </Grid>

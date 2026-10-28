@@ -1,5 +1,10 @@
-   # Build output
-   macos/build/
+# Build output
+macos/build/
 
-   # macOS
-   .DS_Store
+# macOS
+.DS_Store
+
+# Windows build output
+windows/bin/
+windows/obj/
+out/

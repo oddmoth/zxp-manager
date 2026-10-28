@@ -14,7 +14,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Get the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build ZXP Manager
         run: dotnet build windows/ZXPManager.csproj --configuration Release --output out
@@ -24,7 +24,7 @@ jobs:
         run: Get-Item out/ZXPManager.exe | Format-List Name, Length, VersionInfo
 
       - name: Make the exe downloadable
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ZXPManager-windows
           path: out/ZXPManager.exe

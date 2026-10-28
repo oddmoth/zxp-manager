@@ -14,7 +14,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Get the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Use the newest Xcode (needed for the Icon Composer icon)
         run: |
@@ -39,7 +39,7 @@ jobs:
         run: ditto -c -k --keepParent "macos/build/ZXP Manager.app" "ZXP-Manager-macOS.zip"
 
       - name: Make the app downloadable
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ZXPManager-macos
           path: ZXP-Manager-macOS.zip

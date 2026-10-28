@@ -1,0 +1,46 @@
+name: macOS build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "macos/**"
+      - "i18n/**"
+      - ".github/workflows/macos.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Use the newest Xcode (needed for the Icon Composer icon)
+        run: |
+          XCODE=$(ls -d /Applications/Xcode_*.app 2>/dev/null | grep -vi beta | sort -V | tail -1)
+          [ -z "$XCODE" ] && XCODE=/Applications/Xcode.app
+          echo "Using $XCODE"
+          echo "DEVELOPER_DIR=$XCODE/Contents/Developer" >> "$GITHUB_ENV"
+          echo "XCODE_DEVELOPER_DIR=$XCODE/Contents/Developer" >> "$GITHUB_ENV"
+
+      - name: Build ZXP Manager
+        run: zsh macos/build.sh
+
+      - name: Check the result
+        run: |
+          APP="macos/build/ZXP Manager.app"
+          lipo -archs "$APP/Contents/MacOS/ZXPManager"
+          ls "$APP/Contents/Resources" | grep -E "Assets.car|AppIcon.icns" || echo "::warning::The app was built without an icon"
+          echo "Languages: $(ls -d "$APP"/Contents/Resources/*.lproj | wc -l)"
+          du -sh "$APP"
+
+      - name: Zip the app
+        run: ditto -c -k --keepParent "macos/build/ZXP Manager.app" "ZXP-Manager-macOS.zip"
+
+      - name: Make the app downloadable
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZXPManager-macos
+          path: ZXP-Manager-macOS.zip
+          if-no-files-found: error

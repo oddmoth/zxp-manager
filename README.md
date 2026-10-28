@@ -54,6 +54,8 @@ The app is not yet signed with a code-signing certificate, so Windows SmartScree
 
 ## Build from source
 
+Both apps are built automatically by GitHub Actions at every change: open the **Actions** tab, choose the latest **macOS build** or **Windows build** run and download the file at the bottom of the page.
+
 ### macOS
 
 Requirements: Xcode Command Line Tools (`xcode-select --install`). Full Xcode is optional: if present, it is used to compile the adaptive icon for macOS 26.
@@ -61,14 +63,12 @@ Requirements: Xcode Command Line Tools (`xcode-select --install`). Full Xcode is
 ```sh
 git clone https://github.com/oddmoth/zxp-manager.git
 cd zxp-manager/macos
-./build.sh
+zsh build.sh
 ```
 
 The app is created in `macos/build/`.
 
 ### Windows
-
-The Windows app is built automatically by GitHub Actions at every change: open the **Actions** tab, choose the latest **Windows build** run and download `ZXPManager-windows`.
 
 To build it yourself, install the [.NET SDK](https://dotnet.microsoft.com/download) and run:
 

@@ -19,6 +19,8 @@
   "log.installFailed": "%@：安裝失敗。Adobe 的訊息：",
   "log.removed": "%@：移除完成",
   "log.removeFailed": "%@：移除失敗。Adobe 的訊息：",
+  "hint.restart": "如果 %@ 正在執行，請結束並重新開啟它以查看變更。",
+  "hint.restartGeneric": "如果相關的 Adobe App 正在執行，請結束並重新開啟它們以查看變更。",
   "remove.confirm.title": "要移除此延伸功能嗎？",
   "remove.confirm.button": "移除 %@",
   "remove.confirm.message": "建議在繼續前關閉 Adobe App。",

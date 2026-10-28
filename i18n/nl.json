@@ -19,6 +19,8 @@
   "log.installFailed": "%@: installatie mislukt. Melding van Adobe:",
   "log.removed": "%@: verwijderen voltooid",
   "log.removeFailed": "%@: verwijderen mislukt. Melding van Adobe:",
+  "hint.restart": "Als %@ geopend is, sluit het dan en open het opnieuw om de wijzigingen te zien.",
+  "hint.restartGeneric": "Als de betreffende Adobe-apps geopend zijn, sluit ze dan en open ze opnieuw om de wijzigingen te zien.",
   "remove.confirm.title": "Deze extensie verwijderen?",
   "remove.confirm.button": "%@ verwijderen",
   "remove.confirm.message": "Sluit bij voorkeur de Adobe-apps voordat je verdergaat.",

@@ -27,6 +27,15 @@ func LF(_ key: String, _ args: CVarArg...) -> String {
     String(format: L(key), locale: Locale.current, arguments: args)
 }
 
+/// "If After Effects is running, quit and reopen it…" — names the app when there is exactly one.
+func restartHint(_ appNames: [String]) -> String {
+    var unique: [String] = []
+    for name in appNames where name.caseInsensitiveCompare("Others") != .orderedSame && !unique.contains(name) {
+        unique.append(name)
+    }
+    return unique.count == 1 ? LF("hint.restart", unique[0]) : L("hint.restartGeneric")
+}
+
 // MARK: - Data
 
 struct AdobeExtension: Identifiable, Hashable {
@@ -332,7 +341,7 @@ final class Model: ObservableObject {
             let item = previewItems[i]
             let result = await UPIA.run(["--install", item.url.path])
             if UPIA.succeeded(result.output) {
-                appendLog(LF("log.installed", item.name))
+                appendLog(LF("log.installed", item.name), restartHint(item.hosts.map { $0.displayName }))
                 previewItems[i].outcome = .success
             } else {
                 // Adobe's own message is only shown when something goes wrong
@@ -354,7 +363,8 @@ final class Model: ObservableObject {
         busy = true
         let result = await UPIA.run(["--remove", ext.name])
         if UPIA.succeeded(result.output) {
-            appendLog(LF("log.removed", ext.name))
+            let hostApp = apps.first { $0.extensions.contains(ext) }?.name
+            appendLog(LF("log.removed", ext.name), restartHint(hostApp.map { [$0] } ?? []))
         } else {
             appendLog(LF("log.removeFailed", ext.name), result.output)
         }
@@ -450,6 +460,10 @@ struct PackageCard: View {
                 }
                 if case .failure(let message) = item.outcome {
                     Text(message).font(.caption).foregroundStyle(Color.red).textSelection(.enabled)
+                }
+                if item.outcome == .success {
+                    Label(restartHint(item.hosts.map { $0.displayName }), systemImage: "arrow.clockwise")
+                        .font(.caption).foregroundStyle(.secondary).padding(.top, 2)
                 }
             }
         }

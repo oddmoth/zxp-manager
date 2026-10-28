@@ -6,6 +6,7 @@ namespace ZXPManager
     public class ExtensionItem
     {
         public string AppTitle { get; set; }
+        public string AppName { get; set; }
         public string Name { get; set; }
         public string Version { get; set; }
         public bool Enabled { get; set; }

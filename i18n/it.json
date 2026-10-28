@@ -19,6 +19,8 @@
   "log.installFailed": "%@: installazione non riuscita. Messaggio di Adobe:",
   "log.removed": "%@: rimozione completata",
   "log.removeFailed": "%@: rimozione non riuscita. Messaggio di Adobe:",
+  "hint.restart": "Se %@ è in esecuzione, chiudilo e riaprilo per vedere le modifiche.",
+  "hint.restartGeneric": "Se le app Adobe interessate sono in esecuzione, chiudile e riaprile per vedere le modifiche.",
   "remove.confirm.title": "Rimuovere l'estensione?",
   "remove.confirm.button": "Rimuovi %@",
   "remove.confirm.message": "Conviene chiudere le app Adobe prima di procedere.",

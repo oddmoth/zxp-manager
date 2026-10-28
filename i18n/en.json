@@ -19,6 +19,8 @@
   "log.installFailed": "%@: installation failed. Message from Adobe:",
   "log.removed": "%@: removal complete",
   "log.removeFailed": "%@: removal failed. Message from Adobe:",
+  "hint.restart": "If %@ is running, quit and reopen it to see the changes.",
+  "hint.restartGeneric": "If the Adobe apps involved are running, quit and reopen them to see the changes.",
   "remove.confirm.title": "Remove this extension?",
   "remove.confirm.button": "Remove %@",
   "remove.confirm.message": "It's best to close your Adobe apps before proceeding.",

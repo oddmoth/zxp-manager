@@ -19,6 +19,8 @@
   "log.installFailed": "%@: instalasi gagal. Pesan dari Adobe:",
   "log.removed": "%@: penghapusan selesai",
   "log.removeFailed": "%@: penghapusan gagal. Pesan dari Adobe:",
+  "hint.restart": "Jika %@ sedang berjalan, tutup lalu buka kembali untuk melihat perubahannya.",
+  "hint.restartGeneric": "Jika app Adobe terkait sedang berjalan, tutup lalu buka kembali untuk melihat perubahannya.",
   "remove.confirm.title": "Hapus ekstensi ini?",
   "remove.confirm.button": "Hapus %@",
   "remove.confirm.message": "Sebaiknya tutup app Adobe sebelum melanjutkan.",

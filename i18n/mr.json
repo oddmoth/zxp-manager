@@ -19,6 +19,8 @@
   "log.installFailed": "%@: इन्स्टॉलेशन अयशस्वी झाले. Adobe चा संदेश:",
   "log.removed": "%@: काढणे पूर्ण झाले",
   "log.removeFailed": "%@: काढणे अयशस्वी झाले. Adobe चा संदेश:",
+  "hint.restart": "%@ सुरू असल्यास, बदल पाहण्यासाठी ते बंद करून पुन्हा उघडा.",
+  "hint.restartGeneric": "संबंधित Adobe ॲप्स सुरू असल्यास, बदल पाहण्यासाठी ती बंद करून पुन्हा उघडा.",
   "remove.confirm.title": "हे एक्स्टेंशन काढायचे?",
   "remove.confirm.button": "%@ काढा",
   "remove.confirm.message": "पुढे जाण्यापूर्वी Adobe ॲप्स बंद करणे चांगले.",

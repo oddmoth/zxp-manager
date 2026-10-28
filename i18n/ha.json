@@ -19,6 +19,8 @@
   "log.installFailed": "%@: shigarwa ta kasa. Saƙo daga Adobe:",
   "log.removed": "%@: an kammala cirewa",
   "log.removeFailed": "%@: cirewa ta kasa. Saƙo daga Adobe:",
+  "hint.restart": "Idan %@ yana aiki, rufe shi sannan ka sake buɗe shi don ganin canje-canjen.",
+  "hint.restartGeneric": "Idan manhajojin Adobe da abin ya shafa suna aiki, rufe su sannan ka sake buɗe su don ganin canje-canjen.",
   "remove.confirm.title": "A cire wannan ƙarin?",
   "remove.confirm.button": "Cire %@",
   "remove.confirm.message": "Ya fi kyau a rufe manhajojin Adobe kafin a ci gaba.",

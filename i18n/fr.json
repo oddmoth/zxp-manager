@@ -19,6 +19,8 @@
   "log.installFailed": "%@ : échec de l'installation. Message d'Adobe :",
   "log.removed": "%@ : suppression terminée",
   "log.removeFailed": "%@ : échec de la suppression. Message d'Adobe :",
+  "hint.restart": "Si %@ est ouvert, quittez-le puis relancez-le pour voir les modifications.",
+  "hint.restartGeneric": "Si les apps Adobe concernées sont ouvertes, quittez-les puis relancez-les pour voir les modifications.",
   "remove.confirm.title": "Supprimer cette extension ?",
   "remove.confirm.button": "Supprimer %@",
   "remove.confirm.message": "Il est conseillé de fermer les apps Adobe avant de continuer.",

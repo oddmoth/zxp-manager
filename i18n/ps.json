@@ -19,6 +19,8 @@
   "log.installFailed": "%@: نصب ناکام شو. د Adobe پیغام:",
   "log.removed": "%@: لرې کول بشپړ شول",
   "log.removeFailed": "%@: لرې کول ناکام شول. د Adobe پیغام:",
+  "hint.restart": "که %@ روان وي، د بدلونونو د لیدو لپاره یې وتړئ او بیا یې پرانیزئ.",
+  "hint.restartGeneric": "که اړوند Adobe اپلیکیشنونه روان وي، د بدلونونو د لیدو لپاره یې وتړئ او بیا یې پرانیزئ.",
   "remove.confirm.title": "دا توسیع لرې شي؟",
   "remove.confirm.button": "%@ لرې کړئ",
   "remove.confirm.message": "غوره دا ده چې مخکې له دوام څخه د Adobe اپلیکیشنونه وتړئ.",

@@ -19,6 +19,8 @@
   "log.installFailed": "%@: انسٹالیشن ناکام ہو گئی۔ Adobe کا پیغام:",
   "log.removed": "%@: ہٹانا مکمل ہو گیا",
   "log.removeFailed": "%@: ہٹانا ناکام ہو گیا۔ Adobe کا پیغام:",
+  "hint.restart": "اگر %@ چل رہا ہے تو تبدیلیاں دیکھنے کے لیے اسے بند کر کے دوبارہ کھولیں۔",
+  "hint.restartGeneric": "اگر متعلقہ Adobe ایپس چل رہی ہیں تو تبدیلیاں دیکھنے کے لیے انہیں بند کر کے دوبارہ کھولیں۔",
   "remove.confirm.title": "یہ ایکسٹینشن ہٹائیں؟",
   "remove.confirm.button": "%@ ہٹائیں",
   "remove.confirm.message": "جاری رکھنے سے پہلے Adobe ایپس بند کر دینا بہتر ہے۔",

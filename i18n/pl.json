@@ -19,6 +19,8 @@
   "log.installFailed": "%@: instalacja nie powiodła się. Komunikat Adobe:",
   "log.removed": "%@: usuwanie zakończone",
   "log.removeFailed": "%@: usuwanie nie powiodło się. Komunikat Adobe:",
+  "hint.restart": "Jeśli %@ jest uruchomiony, zamknij go i otwórz ponownie, aby zobaczyć zmiany.",
+  "hint.restartGeneric": "Jeśli odpowiednie aplikacje Adobe są uruchomione, zamknij je i otwórz ponownie, aby zobaczyć zmiany.",
   "remove.confirm.title": "Usunąć to rozszerzenie?",
   "remove.confirm.button": "Usuń %@",
   "remove.confirm.message": "Przed kontynuowaniem najlepiej zamknąć aplikacje Adobe.",

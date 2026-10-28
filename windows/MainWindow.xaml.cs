@@ -214,7 +214,7 @@ namespace ZXPManager
             SetBusy(true);
             var result = await Upia.RunAsync("/remove", ext.Name);
             if (Upia.Succeeded(result.Output))
-                AppendLog(Loc.F("log.removed", ext.Name));
+                AppendLog(Loc.F("log.removed", ext.Name), Loc.RestartHint(new[] { ext.AppName }));
             else
                 AppendLog(Loc.F("log.removeFailed", ext.Name), result.Output); // Adobe's message only on errors
             SetBusy(false);

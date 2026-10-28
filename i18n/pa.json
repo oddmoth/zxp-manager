@@ -19,6 +19,8 @@
   "log.installFailed": "%@: ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫਲ ਰਹੀ। Adobe ਦਾ ਸੁਨੇਹਾ:",
   "log.removed": "%@: ਹਟਾਉਣਾ ਪੂਰਾ ਹੋਇਆ",
   "log.removeFailed": "%@: ਹਟਾਉਣਾ ਅਸਫਲ ਰਿਹਾ। Adobe ਦਾ ਸੁਨੇਹਾ:",
+  "hint.restart": "ਜੇ %@ ਚੱਲ ਰਿਹਾ ਹੈ, ਤਾਂ ਬਦਲਾਅ ਦੇਖਣ ਲਈ ਇਸਨੂੰ ਬੰਦ ਕਰਕੇ ਦੁਬਾਰਾ ਖੋਲ੍ਹੋ।",
+  "hint.restartGeneric": "ਜੇ ਸੰਬੰਧਿਤ Adobe ਐਪਾਂ ਚੱਲ ਰਹੀਆਂ ਹਨ, ਤਾਂ ਬਦਲਾਅ ਦੇਖਣ ਲਈ ਉਹਨਾਂ ਨੂੰ ਬੰਦ ਕਰਕੇ ਦੁਬਾਰਾ ਖੋਲ੍ਹੋ।",
   "remove.confirm.title": "ਕੀ ਇਹ ਐਕਸਟੈਂਸ਼ਨ ਹਟਾਉਣੀ ਹੈ?",
   "remove.confirm.button": "%@ ਹਟਾਓ",
   "remove.confirm.message": "ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ Adobe ਐਪਾਂ ਬੰਦ ਕਰਨਾ ਬਿਹਤਰ ਹੈ।",

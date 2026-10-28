@@ -19,6 +19,8 @@
   "log.installFailed": "%@: فشل التثبيت. رسالة Adobe:",
   "log.removed": "%@: اكتملت الإزالة",
   "log.removeFailed": "%@: فشلت الإزالة. رسالة Adobe:",
+  "hint.restart": "إذا كان %@ قيد التشغيل، فأغلقه ثم أعد فتحه لرؤية التغييرات.",
+  "hint.restartGeneric": "إذا كانت تطبيقات Adobe المعنية قيد التشغيل، فأغلقها ثم أعد فتحها لرؤية التغييرات.",
   "remove.confirm.title": "هل تريد إزالة هذا الامتداد؟",
   "remove.confirm.button": "إزالة %@",
   "remove.confirm.message": "يُفضَّل إغلاق تطبيقات Adobe قبل المتابعة.",

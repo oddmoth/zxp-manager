@@ -19,6 +19,8 @@
   "log.installFailed": "%@: instalacija nije uspjela. Poruka kompanije Adobe:",
   "log.removed": "%@: uklanjanje završeno",
   "log.removeFailed": "%@: uklanjanje nije uspjelo. Poruka kompanije Adobe:",
+  "hint.restart": "Ako je %@ pokrenut, zatvorite ga i ponovo otvorite da biste vidjeli promjene.",
+  "hint.restartGeneric": "Ako su odgovarajuće Adobe aplikacije pokrenute, zatvorite ih i ponovo otvorite da biste vidjeli promjene.",
   "remove.confirm.title": "Ukloniti ovu ekstenziju?",
   "remove.confirm.button": "Ukloni %@",
   "remove.confirm.message": "Najbolje je zatvoriti Adobe aplikacije prije nastavka.",

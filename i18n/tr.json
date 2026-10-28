@@ -19,6 +19,8 @@
   "log.installFailed": "%@: yükleme başarısız oldu. Adobe'nin mesajı:",
   "log.removed": "%@: kaldırma tamamlandı",
   "log.removeFailed": "%@: kaldırma başarısız oldu. Adobe'nin mesajı:",
+  "hint.restart": "%@ açıksa, değişiklikleri görmek için kapatıp yeniden açın.",
+  "hint.restartGeneric": "İlgili Adobe uygulamaları açıksa, değişiklikleri görmek için kapatıp yeniden açın.",
   "remove.confirm.title": "Bu uzantı kaldırılsın mı?",
   "remove.confirm.button": "%@ öğesini kaldır",
   "remove.confirm.message": "Devam etmeden önce Adobe uygulamalarını kapatmanız önerilir.",

@@ -19,6 +19,8 @@
   "log.installFailed": "%@: pamasangan gagal. Pesen saka Adobe:",
   "log.removed": "%@: pambusakan rampung",
   "log.removeFailed": "%@: pambusakan gagal. Pesen saka Adobe:",
+  "hint.restart": "Yen %@ lagi mlaku, tutup banjur bukak maneh supaya owah-owahane katon.",
+  "hint.restartGeneric": "Yen app Adobe sing gegandhengan lagi mlaku, tutup banjur bukak maneh supaya owah-owahane katon.",
   "remove.confirm.title": "Busak ekstensi iki?",
   "remove.confirm.button": "Busak %@",
   "remove.confirm.message": "Luwih becik nutup app Adobe sadurunge nerusake.",

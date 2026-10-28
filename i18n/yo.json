@@ -19,6 +19,8 @@
   "log.installFailed": "%@: ìfisori ẹrọ kùnà. Ìfiránṣẹ́ láti ọ̀dọ̀ Adobe:",
   "log.removed": "%@: yíyọ kuro ti parí",
   "log.removeFailed": "%@: yíyọ kuro kùnà. Ìfiránṣẹ́ láti ọ̀dọ̀ Adobe:",
+  "hint.restart": "Tí %@ bá ń ṣiṣẹ́, pa á dé kí o sì tún un ṣí láti rí àwọn àyípadà náà.",
+  "hint.restartGeneric": "Tí àwọn app Adobe tí ó kàn bá ń ṣiṣẹ́, pa wọ́n dé kí o sì tún wọn ṣí láti rí àwọn àyípadà náà.",
   "remove.confirm.title": "Ṣé kí a yọ àfikún yìí kuro?",
   "remove.confirm.button": "Yọ %@ kuro",
   "remove.confirm.message": "Ó dára kí o pa àwọn app Adobe kí o tó tẹ̀síwájú.",

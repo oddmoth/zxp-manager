@@ -19,6 +19,8 @@
   "log.installFailed": "%@: نصب ناموفق بود. پیام Adobe:",
   "log.removed": "%@: حذف کامل شد",
   "log.removeFailed": "%@: حذف ناموفق بود. پیام Adobe:",
+  "hint.restart": "اگر %@ در حال اجراست، آن را ببندید و دوباره باز کنید تا تغییرات را ببینید.",
+  "hint.restartGeneric": "اگر برنامه‌های Adobe مربوطه در حال اجرا هستند، آن‌ها را ببندید و دوباره باز کنید تا تغییرات را ببینید.",
   "remove.confirm.title": "این افزونه حذف شود؟",
   "remove.confirm.button": "حذف %@",
   "remove.confirm.message": "بهتر است پیش از ادامه، برنامه‌های Adobe را ببندید.",

@@ -22,7 +22,11 @@ namespace ZXPManager
             public ContentControl Status;
             public UIElement AlreadyInstalled;
             public TextBox Failure;
+            public UIElement RestartHint;
         }
+
+        private static string RestartHint(PackageInfo package) =>
+            Loc.RestartHint(package.Hosts.Select(h => h.DisplayName));
 
         public PreviewWindow(List<PackageInfo> packages, List<HostApp> apps, MainWindow main)
         {
@@ -59,7 +63,7 @@ namespace ZXPManager
                 var result = await Upia.RunAsync("/install", package.Path);
                 if (Upia.Succeeded(result.Output))
                 {
-                    main.AppendLog(Loc.F("log.installed", package.Name));
+                    main.AppendLog(Loc.F("log.installed", package.Name), RestartHint(package));
                     package.Outcome = Outcome.Success;
                 }
                 else
@@ -216,6 +220,10 @@ namespace ZXPManager
             parts.Failure.SetResourceReference(TextBox.ForegroundProperty, "Danger");
             body.Children.Add(parts.Failure);
 
+            parts.RestartHint = Line("", "FgSecondary", Text(RestartHint(package), "FgSecondary", 12), 8);
+            parts.RestartHint.Visibility = Visibility.Collapsed;
+            body.Children.Add(parts.RestartHint);
+
             return border;
         }
 
@@ -231,6 +239,7 @@ namespace ZXPManager
                     break;
                 case Outcome.Success:
                     parts.Status.Content = Line("", "Success", Text(Loc.T("preview.status.installed"), "Success", 12), 0);
+                    parts.RestartHint.Visibility = Visibility.Visible;
                     break;
                 case Outcome.Failure:
                     parts.Status.Content = Line("", "Danger", Text(Loc.T("preview.status.error"), "Danger", 12), 0);

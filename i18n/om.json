@@ -19,6 +19,8 @@
   "log.installFailed": "%@: fe'uun hin milkoofne. Ergaa Adobe:",
   "log.removed": "%@: haquun xumurame",
   "log.removeFailed": "%@: haquun hin milkoofne. Ergaa Adobe:",
+  "hint.restart": "Yoo %@ hojii irra jiraate, jijjiirama ilaaluuf cufii irra deebi'ii bani.",
+  "hint.restartGeneric": "Yoo appiiwwan Adobe ilaallatan hojii irra jiraatan, jijjiirama ilaaluuf cufii irra deebi'ii bani.",
   "remove.confirm.title": "Dabalata kana haquu?",
   "remove.confirm.button": "%@ haqi",
   "remove.confirm.message": "Itti fufuu dura appiiwwan Adobe cufuun gaariidha.",

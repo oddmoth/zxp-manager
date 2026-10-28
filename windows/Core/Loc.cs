@@ -70,6 +70,18 @@ namespace ZXPManager
             catch (FormatException) { return T(key); }
         }
 
+        /// <summary>"If After Effects is running, quit and reopen it…" — names the app when there is exactly one.</summary>
+        public static string RestartHint(IEnumerable<string> appNames)
+        {
+            var unique = new List<string>();
+            foreach (var name in appNames ?? new string[0])
+                if (!string.IsNullOrWhiteSpace(name)
+                    && !name.Equals("Others", StringComparison.OrdinalIgnoreCase)
+                    && !unique.Contains(name))
+                    unique.Add(name);
+            return unique.Count == 1 ? F("hint.restart", unique[0]) : T("hint.restartGeneric");
+        }
+
         public static IEnumerable<string> AvailableLanguages()
         {
             foreach (var res in Assembly.GetExecutingAssembly().GetManifestResourceNames())

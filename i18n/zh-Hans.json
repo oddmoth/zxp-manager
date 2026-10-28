@@ -19,6 +19,8 @@
   "log.installFailed": "%@：安装失败。Adobe 的消息：",
   "log.removed": "%@：移除完成",
   "log.removeFailed": "%@：移除失败。Adobe 的消息：",
+  "hint.restart": "如果 %@ 正在运行，请退出并重新打开它以查看更改。",
+  "hint.restartGeneric": "如果相关的 Adobe 应用正在运行，请退出并重新打开它们以查看更改。",
   "remove.confirm.title": "要移除此扩展吗？",
   "remove.confirm.button": "移除 %@",
   "remove.confirm.message": "建议在继续之前关闭 Adobe 应用。",

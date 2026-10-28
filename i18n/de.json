@@ -19,6 +19,8 @@
   "log.installFailed": "%@: Installation fehlgeschlagen. Meldung von Adobe:",
   "log.removed": "%@: Entfernen abgeschlossen",
   "log.removeFailed": "%@: Entfernen fehlgeschlagen. Meldung von Adobe:",
+  "hint.restart": "Wenn %@ geöffnet ist, beende es und öffne es erneut, um die Änderungen zu sehen.",
+  "hint.restartGeneric": "Wenn die betroffenen Adobe-Apps geöffnet sind, beende sie und öffne sie erneut, um die Änderungen zu sehen.",
   "remove.confirm.title": "Diese Erweiterung entfernen?",
   "remove.confirm.button": "%@ entfernen",
   "remove.confirm.message": "Schließe am besten die Adobe-Apps, bevor du fortfährst.",

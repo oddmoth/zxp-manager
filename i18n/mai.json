@@ -19,6 +19,8 @@
   "log.installFailed": "%@: इन्स्टॉलेशन विफल भेल। Adobe क संदेश:",
   "log.removed": "%@: हटेबाक काज पूरा भेल",
   "log.removeFailed": "%@: हटेबाक काज विफल भेल। Adobe क संदेश:",
+  "hint.restart": "जँ %@ चलि रहल अछि, तँ बदलाव देखबाक लेल एकरा बन्द क' फेर खोलू।",
+  "hint.restartGeneric": "जँ संबंधित Adobe ऐप सभ चलि रहल अछि, तँ बदलाव देखबाक लेल ओकरा बन्द क' फेर खोलू।",
   "remove.confirm.title": "की ई एक्सटेंशन हटाबी?",
   "remove.confirm.button": "%@ हटाउ",
   "remove.confirm.message": "आगू बढ़बा सँ पहिने Adobe ऐप बन्द करब नीक।",

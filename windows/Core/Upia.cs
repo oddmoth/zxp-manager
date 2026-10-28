@@ -135,6 +135,7 @@ namespace ZXPManager
                     app.Extensions.Add(new ExtensionItem
                     {
                         AppTitle = app.Title,
+                        AppName = app.Name,
                         Name = r.Groups[2].Value.Trim(),
                         Version = r.Groups[3].Value,
                         Enabled = r.Groups[1].Value.Equals("Enabled", StringComparison.OrdinalIgnoreCase),

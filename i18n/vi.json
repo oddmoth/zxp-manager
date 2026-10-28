@@ -19,6 +19,8 @@
   "log.installFailed": "%@: cài đặt không thành công. Thông báo từ Adobe:",
   "log.removed": "%@: đã xóa xong",
   "log.removeFailed": "%@: xóa không thành công. Thông báo từ Adobe:",
+  "hint.restart": "Nếu %@ đang chạy, hãy thoát và mở lại để thấy các thay đổi.",
+  "hint.restartGeneric": "Nếu các ứng dụng Adobe liên quan đang chạy, hãy thoát và mở lại để thấy các thay đổi.",
   "remove.confirm.title": "Xóa tiện ích mở rộng này?",
   "remove.confirm.button": "Xóa %@",
   "remove.confirm.message": "Bạn nên đóng các ứng dụng Adobe trước khi tiếp tục.",

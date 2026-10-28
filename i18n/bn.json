@@ -19,6 +19,8 @@
   "log.installFailed": "%@: ইনস্টলেশন ব্যর্থ হয়েছে। Adobe-এর বার্তা:",
   "log.removed": "%@: সরানো সম্পন্ন হয়েছে",
   "log.removeFailed": "%@: সরানো ব্যর্থ হয়েছে। Adobe-এর বার্তা:",
+  "hint.restart": "%@ চালু থাকলে, পরিবর্তনগুলো দেখতে এটি বন্ধ করে আবার খুলুন।",
+  "hint.restartGeneric": "সংশ্লিষ্ট Adobe অ্যাপগুলো চালু থাকলে, পরিবর্তনগুলো দেখতে সেগুলো বন্ধ করে আবার খুলুন।",
   "remove.confirm.title": "এই এক্সটেনশনটি সরাবেন?",
   "remove.confirm.button": "%@ সরান",
   "remove.confirm.message": "এগোনোর আগে Adobe অ্যাপগুলো বন্ধ করা ভালো।",

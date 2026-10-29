@@ -67,7 +67,7 @@ jobs:
           if-no-files-found: error
 
   macos:
-    runs-on: macos-latest
+    runs-on: macos-26
     steps:
       - name: Get the code
         uses: actions/checkout@v5
@@ -123,6 +123,12 @@ jobs:
         run: |
           cp docs/how-to-open.html "dist/How-to-open-ZXP-Manager.html"
           cd dist
+          # Same files without the version number, so links like
+          # .../releases/latest/download/ZXP-Manager-macOS.dmg always point to the newest version
+          VERSION="${GITHUB_REF_NAME#v}"
+          for f in *-"$VERSION".*; do
+            cp "$f" "${f/-$VERSION/}"
+          done
           sha256sum * > SHA256SUMS.txt
           ls -la
           cat SHA256SUMS.txt

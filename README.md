@@ -38,7 +38,7 @@ Get the latest version from the [Releases](https://github.com/oddmoth/zxp-manage
 | Windows | `ZXP-Manager-Setup-x.y.z.exe`: installer, adds a Start menu entry and opens `.zxp` files with a double-click |
 | Windows | `ZXP-Manager-Windows-Portable-x.y.z.zip`: no installation, just unzip and run |
 
-The first time you open it, macOS and Windows ask you to confirm: see the steps below, or the step-by-step guide [How to open ZXP Manager](docs/how-to-open.html), which is also included in the downloads.
+The first time you open it, macOS and Windows ask you to confirm: see the steps below, or the step-by-step guide [How to open ZXP Manager](docs/how-to-open.html), which is also included in the downloads and available in all 64 languages.
 
 ### Opening the app the first time on macOS
 
@@ -102,7 +102,9 @@ To try the packages without publishing anything, open **Actions → Release → 
 
 All texts live in [`i18n/`](i18n/), one JSON file per language, shared by every version of the app. `en.json` is the reference.
 
-To fix or improve a translation, edit the file for your language and open a pull request. Please keep placeholders such as `%@` and `%d` unchanged. Native speakers' reviews are very welcome, especially for the less common languages.
+To fix or improve a translation, edit the file for your language and open a pull request. Please keep placeholders such as `%@` and `%d` unchanged.
+
+The "How to open ZXP Manager" guide keeps its translations inside [`docs/how-to-open.html`](docs/how-to-open.html), one block per language. Each block also lists the names of buttons and settings as macOS and Windows show them in that language: corrections from people using their system in that language are especially helpful. Please keep names in braces such as `{openAnyway}` unchanged. Native speakers' reviews are very welcome, especially for the less common languages.
 
 To see the app in another language without changing your system language:
 

@@ -30,7 +30,7 @@ ZXP Manager uses Adobe's own plugin installer, which comes with the Creative Clo
 
 ## Download
 
-Get the latest version from the [Releases](https://github.com/oddmoth/zxp-manager/releases) page:
+Get the latest version from **[oddmoth.app/zxp-manager](https://oddmoth.app/zxp-manager/)** or from the [Releases](https://github.com/oddmoth/zxp-manager/releases) page:
 
 | System | File |
 |---|---|
@@ -128,8 +128,12 @@ i18n/      translations (one JSON file per language), shared by both apps
 macos/     macOS app (SwiftUI): source code, build script, icon, .dmg layout
 windows/   Windows app (WPF, .NET Framework 4.8) and its installer
 docs/      "How to open ZXP Manager" guide, included in the downloads
-assets/    shared artwork
+assets/    shared artwork (brand/: Odd Moth logo and icon)
 ```
+
+## Support
+
+ZXP Manager is free and will stay free. If it saves you time, you can support its development at **[oddmoth.app/support](https://oddmoth.app/support/)**, or simply star this repository.
 
 ## Disclaimer
 
@@ -138,3 +142,16 @@ ZXP Manager is an independent project and is not affiliated with, endorsed by, o
 ## License
 
 [MIT](LICENSE) © 2026 Odd Moth
+
+---
+
+<p align="center">
+  <a href="https://oddmoth.app/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/brand/oddmoth-logo-negative.svg">
+      <img src="assets/brand/oddmoth-logo-positive.svg" width="220" alt="Odd Moth">
+    </picture>
+  </a>
+  <br>
+  Small native tools for creative work · <a href="https://oddmoth.app/">oddmoth.app</a>
+</p>

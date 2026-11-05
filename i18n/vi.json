@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Không tìm thấy trình cài đặt plugin của Adobe.\nHãy kiểm tra xem ứng dụng Creative Cloud đã được cài đặt chưa.\n(%@)",
   "error.upiaLaunch": "Không thể khởi chạy trình cài đặt plugin của Adobe: %@",
   "error.upiaTimeout": "[Đã dừng sau %d giây. Ứng dụng Creative Cloud đã mở và đăng nhập chưa?]",
-  "error.unknown": "Lỗi không xác định"
+  "error.unknown": "Lỗi không xác định",
+  "menu.tip": "Để lại tiền tip…"
 }

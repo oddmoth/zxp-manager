@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Pamasang plugin Adobe ora ketemu.\nPriksa manawa app Creative Cloud wis kapasang.\n(%@)",
   "error.upiaLaunch": "Ora bisa mbukak pamasang plugin Adobe: %@",
   "error.upiaTimeout": "[Mandheg sawise %d dtk. Apa app Creative Cloud wis dibukak lan wis mlebu?]",
-  "error.unknown": "Kasalahan sing ora dingerteni"
+  "error.unknown": "Kasalahan sing ora dingerteni",
+  "menu.tip": "Wenehi tip…"
 }

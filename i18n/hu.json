@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Az Adobe bővítménytelepítője nem található.\nEllenőrizze, hogy a Creative Cloud app telepítve van-e.\n(%@)",
   "error.upiaLaunch": "Az Adobe bővítménytelepítője nem indítható el: %@",
   "error.upiaTimeout": "[Leállítva %d mp után. Meg van nyitva a Creative Cloud app, és be van jelentkezve?]",
-  "error.unknown": "Ismeretlen hiba"
+  "error.unknown": "Ismeretlen hiba",
+  "menu.tip": "Hagyj borravalót…"
 }

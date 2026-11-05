@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe ਦਾ ਪਲੱਗਇਨ ਇੰਸਟਾਲਰ ਨਹੀਂ ਮਿਲਿਆ।\nਪੱਕਾ ਕਰੋ ਕਿ Creative Cloud ਐਪ ਇੰਸਟਾਲ ਹੈ।\n(%@)",
   "error.upiaLaunch": "Adobe ਦਾ ਪਲੱਗਇਨ ਇੰਸਟਾਲਰ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋ ਸਕਿਆ: %@",
   "error.upiaTimeout": "[%d ਸਕਿੰਟਾਂ ਬਾਅਦ ਰੋਕ ਦਿੱਤਾ ਗਿਆ। ਕੀ Creative Cloud ਐਪ ਖੁੱਲ੍ਹੀ ਹੈ ਅਤੇ ਸਾਈਨ ਇਨ ਹੈ?]",
-  "error.unknown": "ਅਣਜਾਣ ਗੜਬੜ"
+  "error.unknown": "ਅਣਜਾਣ ਗੜਬੜ",
+  "menu.tip": "ਟਿਪ ਦਿਓ…"
 }

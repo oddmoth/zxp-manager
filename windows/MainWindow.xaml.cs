@@ -203,6 +203,19 @@ namespace ZXPManager
                 await PrepareAsync(dialog.FileNames);
         }
 
+        /// <summary>Opens the tip page on oddmoth.app in the app's language (e.g. /it/support/).</summary>
+        private void Tip_Click(object sender, RoutedEventArgs e)
+        {
+            var folder = Loc.Language.ToLowerInvariant();
+            if (folder == "pt") folder = "pt-br";
+            var path = folder == "en" ? "/support/" : "/" + folder + "/support/";
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("https://oddmoth.app" + path) { UseShellExecute = true });
+            }
+            catch { }
+        }
+
         private void DropHint_Click(object sender, MouseButtonEventArgs e)
         {
             if (!busy) Add_Click(sender, e);

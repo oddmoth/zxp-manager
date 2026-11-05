@@ -760,6 +760,15 @@ struct ContentView: View {
 
 // MARK: - App
 
+/// The tip page on oddmoth.app, in the language the app is running in (e.g. /it/support/).
+let tipPageURL: URL = {
+    let language = Bundle.main.preferredLocalizations.first ?? "en"
+    var folder = language.lowercased()
+    if folder == "pt" { folder = "pt-br" }
+    let path = folder == "en" ? "/support/" : "/\(folder)/support/"
+    return URL(string: "https://oddmoth.app\(path)")!
+}()
+
 final class AppDelegate: NSObject, NSApplicationDelegate {
     // Files dropped on the Dock icon or opened with "Open With"
     func application(_ application: NSApplication, open urls: [URL]) {
@@ -784,6 +793,11 @@ struct ZXPManagerApp: App {
         Window("ZXP Manager", id: "main") {
             ContentView()
                 .environment(\.layoutDirection, appLayoutDirection)
+        }
+        .commands {
+            CommandGroup(after: .appInfo) {
+                Button(L("menu.tip")) { NSWorkspace.shared.open(tipPageURL) }
+            }
         }
     }
 }

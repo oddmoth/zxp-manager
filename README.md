@@ -133,7 +133,7 @@ assets/    shared artwork (brand/: Odd Moth logo and icon)
 
 ## Support
 
-ZXP Manager is free and will stay free. If it saves you time, you can support its development at **[oddmoth.app/support](https://oddmoth.app/support/)**, or simply star this repository.
+ZXP Manager is free and will stay free. If it saves you time, you can **[leave a tip](https://oddmoth.app/support/)**, or simply star this repository.
 
 ## Disclaimer
 

@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Inštalátor zásuvných modulov Adobe sa nenašiel.\nSkontrolujte, či je nainštalovaná aplikácia Creative Cloud.\n(%@)",
   "error.upiaLaunch": "Inštalátor zásuvných modulov Adobe sa nedá spustiť: %@",
   "error.upiaTimeout": "[Zastavené po %d s. Je aplikácia Creative Cloud otvorená a ste prihlásení?]",
-  "error.unknown": "Neznáma chyba"
+  "error.unknown": "Neznáma chyba",
+  "menu.tip": "Nechajte sprepitné…"
 }

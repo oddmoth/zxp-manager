@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Nerastas Adobe papildinių diegimo įrankis.\nPatikrinkite, ar įdiegta Creative Cloud programa.\n(%@)",
   "error.upiaLaunch": "Nepavyko paleisti Adobe papildinių diegimo įrankio: %@",
   "error.upiaTimeout": "[Sustabdyta po %d s. Ar Creative Cloud programa atidaryta ir ar esate prisijungę?]",
-  "error.unknown": "Nežinoma klaida"
+  "error.unknown": "Nežinoma klaida",
+  "menu.tip": "Palikite arbatpinigių…"
 }

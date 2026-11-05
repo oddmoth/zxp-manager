@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe ప్లగిన్ ఇన్‌స్టాలర్ కనుగొనబడలేదు.\nCreative Cloud యాప్ ఇన్‌స్టాల్ అయి ఉందో లేదో చూడండి.\n(%@)",
   "error.upiaLaunch": "Adobe ప్లగిన్ ఇన్‌స్టాలర్‌ను ప్రారంభించలేకపోయాం: %@",
   "error.upiaTimeout": "[%d సెకన్ల తర్వాత ఆపివేయబడింది. Creative Cloud యాప్ తెరిచి, సైన్ ఇన్ చేసి ఉందా?]",
-  "error.unknown": "తెలియని లోపం"
+  "error.unknown": "తెలియని లోపం",
+  "menu.tip": "టిప్ ఇవ్వండి…"
 }

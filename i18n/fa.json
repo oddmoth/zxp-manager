@@ -39,5 +39,6 @@
   "error.upiaNotFound": "نصب‌کننده افزونه‌های Adobe پیدا نشد.\nمطمئن شوید برنامه Creative Cloud نصب شده است.\n(%@)",
   "error.upiaLaunch": "اجرای نصب‌کننده افزونه‌های Adobe ممکن نیست: %@",
   "error.upiaTimeout": "[پس از %d ثانیه متوقف شد. آیا برنامه Creative Cloud باز است و وارد حساب شده‌اید؟]",
-  "error.unknown": "خطای ناشناخته"
+  "error.unknown": "خطای ناشناخته",
+  "menu.tip": "انعام بدهید…"
 }

@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe പ്ലഗിൻ ഇൻസ്റ്റാളർ കണ്ടെത്തിയില്ല.\nCreative Cloud ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടോയെന്ന് ഉറപ്പാക്കുക.\n(%@)",
   "error.upiaLaunch": "Adobe പ്ലഗിൻ ഇൻസ്റ്റാളർ ആരംഭിക്കാനായില്ല: %@",
   "error.upiaTimeout": "[%d സെക്കൻഡിന് ശേഷം നിർത്തി. Creative Cloud ആപ്പ് തുറന്ന് സൈൻ ഇൻ ചെയ്തിട്ടുണ്ടോ?]",
-  "error.unknown": "അജ്ഞാത പിശക്"
+  "error.unknown": "അജ്ഞാത പിശക്",
+  "menu.tip": "ടിപ്പ് നൽകുക…"
 }

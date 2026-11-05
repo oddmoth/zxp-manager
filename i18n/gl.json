@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Non se atopou o instalador de complementos de Adobe.\nComproba que a aplicación Creative Cloud está instalada.\n(%@)",
   "error.upiaLaunch": "Non se puido iniciar o instalador de complementos de Adobe: %@",
   "error.upiaTimeout": "[Detido despois de %d s. A aplicación Creative Cloud está aberta e coa sesión iniciada?]",
-  "error.unknown": "Erro descoñecido"
+  "error.unknown": "Erro descoñecido",
+  "menu.tip": "Deixa unha propina…"
 }

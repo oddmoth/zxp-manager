@@ -39,5 +39,6 @@
   "error.upiaNotFound": "لم يتم العثور على أداة تثبيت المكونات الإضافية من Adobe.\nتأكد من تثبيت تطبيق Creative Cloud.\n(%@)",
   "error.upiaLaunch": "تعذّر تشغيل أداة تثبيت المكونات الإضافية من Adobe: %@",
   "error.upiaTimeout": "[توقف بعد %d ث. هل تطبيق Creative Cloud مفتوح وتم تسجيل الدخول؟]",
-  "error.unknown": "خطأ غير معروف"
+  "error.unknown": "خطأ غير معروف",
+  "menu.tip": "اترك إكرامية…"
 }

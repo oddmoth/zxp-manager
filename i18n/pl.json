@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Nie znaleziono instalatora wtyczek Adobe.\nSprawdź, czy aplikacja Creative Cloud jest zainstalowana.\n(%@)",
   "error.upiaLaunch": "Nie można uruchomić instalatora wtyczek Adobe: %@",
   "error.upiaTimeout": "[Zatrzymano po %d s. Czy aplikacja Creative Cloud jest otwarta i zalogowana?]",
-  "error.unknown": "Nieznany błąd"
+  "error.unknown": "Nieznany błąd",
+  "menu.tip": "Zostaw napiwek…"
 }

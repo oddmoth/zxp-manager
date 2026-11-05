@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adoben laajennusten asennusohjelmaa ei löytynyt.\nVarmista, että Creative Cloud -appi on asennettu.\n(%@)",
   "error.upiaLaunch": "Adoben laajennusten asennusohjelmaa ei voitu käynnistää: %@",
   "error.upiaTimeout": "[Pysäytetty %d s:n jälkeen. Onko Creative Cloud -appi auki ja oletko kirjautunut sisään?]",
-  "error.unknown": "Tuntematon virhe"
+  "error.unknown": "Tuntematon virhe",
+  "menu.tip": "Jätä tippi…"
 }

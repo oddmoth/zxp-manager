@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe ಪ್ಲಗಿನ್ ಇನ್‌ಸ್ಟಾಲರ್ ಕಂಡುಬಂದಿಲ್ಲ.\nCreative Cloud ಆ್ಯಪ್ ಇನ್‌ಸ್ಟಾಲ್ ಆಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.\n(%@)",
   "error.upiaLaunch": "Adobe ಪ್ಲಗಿನ್ ಇನ್‌ಸ್ಟಾಲರ್ ಪ್ರಾರಂಭಿಸಲಾಗಲಿಲ್ಲ: %@",
   "error.upiaTimeout": "[%d ಸೆಕೆಂಡುಗಳ ನಂತರ ನಿಲ್ಲಿಸಲಾಗಿದೆ. Creative Cloud ಆ್ಯಪ್ ತೆರೆದಿದ್ದು ಸೈನ್ ಇನ್ ಆಗಿದೆಯೇ?]",
-  "error.unknown": "ಅಜ್ಞಾತ ದೋಷ"
+  "error.unknown": "ಅಜ್ಞಾತ ದೋಷ",
+  "menu.tip": "ಟಿಪ್ ನೀಡಿ…"
 }

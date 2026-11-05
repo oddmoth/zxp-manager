@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Il programma di installazione dei plugin di Adobe non è stato trovato.\nVerifica che l'app Creative Cloud sia installata.\n(%@)",
   "error.upiaLaunch": "Impossibile avviare il programma di installazione dei plugin di Adobe: %@",
   "error.upiaTimeout": "[Interrotto dopo %d s. L'app Creative Cloud è aperta e con l'accesso effettuato?]",
-  "error.unknown": "Errore sconosciuto"
+  "error.unknown": "Errore sconosciuto",
+  "menu.tip": "Lascia una mancia…"
 }

@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobes installationsprogram för plugin-program hittades inte.\nKontrollera att appen Creative Cloud är installerad.\n(%@)",
   "error.upiaLaunch": "Det gick inte att starta Adobes installationsprogram för plugin-program: %@",
   "error.upiaTimeout": "[Stoppades efter %d s. Är appen Creative Cloud öppen och är du inloggad?]",
-  "error.unknown": "Okänt fel"
+  "error.unknown": "Okänt fel",
+  "menu.tip": "Lämna dricks…"
 }

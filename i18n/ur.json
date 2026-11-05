@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe کا پلگ ان انسٹالر نہیں ملا۔\nیقینی بنائیں کہ Creative Cloud ایپ انسٹال ہے۔\n(%@)",
   "error.upiaLaunch": "Adobe کا پلگ ان انسٹالر شروع نہیں ہو سکا: %@",
   "error.upiaTimeout": "[%d سیکنڈ بعد روک دیا گیا۔ کیا Creative Cloud ایپ کھلی ہے اور سائن ان ہے؟]",
-  "error.unknown": "نامعلوم خرابی"
+  "error.unknown": "نامعلوم خرابی",
+  "menu.tip": "ٹپ دیں…"
 }

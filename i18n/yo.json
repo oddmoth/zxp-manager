@@ -39,5 +39,6 @@
   "error.upiaNotFound": "A kò rí ohun èlò ìfisori ẹrọ plugin ti Adobe.\nRí i dájú pé app Creative Cloud wà lórí ẹrọ.\n(%@)",
   "error.upiaLaunch": "Kò ṣeé ṣe láti bẹ̀rẹ̀ ohun èlò ìfisori ẹrọ plugin ti Adobe: %@",
   "error.upiaTimeout": "[A dá a dúró lẹ́yìn ìṣẹ́jú-àáyá %d. Ṣé app Creative Cloud wà ní ṣíṣí tí o sì ti wọlé?]",
-  "error.unknown": "Àṣìṣe tí a kò mọ̀"
+  "error.unknown": "Àṣìṣe tí a kò mọ̀",
+  "menu.tip": "Fi owó ìmoore sílẹ̀…"
 }

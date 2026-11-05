@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe-এর প্লাগইন ইনস্টলার পাওয়া যায়নি।\nCreative Cloud অ্যাপ ইনস্টল করা আছে কিনা নিশ্চিত করুন।\n(%@)",
   "error.upiaLaunch": "Adobe-এর প্লাগইন ইনস্টলার চালু করা যায়নি: %@",
   "error.upiaTimeout": "[%d সেকেন্ড পরে থামানো হয়েছে। Creative Cloud অ্যাপ খোলা এবং সাইন ইন করা আছে কি?]",
-  "error.unknown": "অজানা ত্রুটি"
+  "error.unknown": "অজানা ত্রুটি",
+  "menu.tip": "বখশিশ দিন…"
 }

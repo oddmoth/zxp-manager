@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Instaluesi i shtojcave të Adobe nuk u gjet.\nSigurohu që aplikacioni Creative Cloud është i instaluar.\n(%@)",
   "error.upiaLaunch": "Instaluesi i shtojcave të Adobe nuk mund të nisej: %@",
   "error.upiaTimeout": "[U ndalua pas %d s. A është i hapur aplikacioni Creative Cloud dhe a je i identifikuar?]",
-  "error.unknown": "Gabim i panjohur"
+  "error.unknown": "Gabim i panjohur",
+  "menu.tip": "Lër një bakshish…"
 }

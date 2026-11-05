@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Penginstal plugin Adobe tidak ditemukan.\nPastikan app Creative Cloud sudah terinstal.\n(%@)",
   "error.upiaLaunch": "Tidak dapat menjalankan penginstal plugin Adobe: %@",
   "error.upiaTimeout": "[Dihentikan setelah %d dtk. Apakah app Creative Cloud terbuka dan sudah masuk?]",
-  "error.unknown": "Kesalahan tidak dikenal"
+  "error.unknown": "Kesalahan tidak dikenal",
+  "menu.tip": "Beri tip…"
 }

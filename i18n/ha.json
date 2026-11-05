@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Ba a sami mai shigar da plugin na Adobe ba.\nTabbatar cewa an shigar da manhajar Creative Cloud.\n(%@)",
   "error.upiaLaunch": "Ba za a iya fara mai shigar da plugin na Adobe ba: %@",
   "error.upiaTimeout": "[An dakatar bayan daƙiƙa %d. Shin manhajar Creative Cloud a buɗe take kuma an shiga?]",
-  "error.unknown": "Kuskuren da ba a sani ba"
+  "error.unknown": "Kuskuren da ba a sani ba",
+  "menu.tip": "Bar tukuici…"
 }

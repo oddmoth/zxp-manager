@@ -39,5 +39,6 @@
   "error.upiaNotFound": "د Adobe د پلگ ان نصبوونکی ونه موندل شو.\nډاډ ترلاسه کړئ چې د Creative Cloud اپلیکیشن نصب دی.\n(%@)",
   "error.upiaLaunch": "د Adobe د پلگ ان نصبوونکی نه پیلېږي: %@",
   "error.upiaTimeout": "[له %d ثانیو وروسته ودرول شو. ایا د Creative Cloud اپلیکیشن پرانیستی دی او ننوتلي یاست؟]",
-  "error.unknown": "نامعلومه تېروتنه"
+  "error.unknown": "نامعلومه تېروتنه",
+  "menu.tip": "انعام ورکړئ…"
 }

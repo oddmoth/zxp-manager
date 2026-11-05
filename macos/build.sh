@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 
 OUT="build"
 APP="$OUT/ZXP Manager.app"
-VERSION="${ZXP_VERSION:-1.0.0}"   # set by the release workflow from the git tag
+VERSION="${ZXP_VERSION:-1.0.1}"   # set by the release workflow from the git tag
 BUILD="${ZXP_BUILD:-1}"
 I18N="../i18n"
 

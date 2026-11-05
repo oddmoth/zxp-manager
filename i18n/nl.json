@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Het plug-in-installatieprogramma van Adobe is niet gevonden.\nControleer of de Creative Cloud-app is geïnstalleerd.\n(%@)",
   "error.upiaLaunch": "Kan het plug-in-installatieprogramma van Adobe niet starten: %@",
   "error.upiaTimeout": "[Gestopt na %d s. Is de Creative Cloud-app geopend en ben je ingelogd?]",
-  "error.unknown": "Onbekende fout"
+  "error.unknown": "Onbekende fout",
+  "menu.tip": "Geef een fooi…"
 }

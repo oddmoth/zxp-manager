@@ -21,6 +21,10 @@
 
     <!-- Toolbar -->
     <DockPanel Grid.Row="0" Margin="10,6" LastChildFill="False">
+      <Button x:Name="TipButton" DockPanel.Dock="Left" Style="{StaticResource ToolButton}" Click="Tip_Click"
+              ToolTip="{local:Tr menu.tip}" AutomationProperties.Name="{local:Tr menu.tip}">
+        <TextBlock Style="{StaticResource Glyph}" Text="&#xEB51;" />
+      </Button>
       <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
         <ProgressBar x:Name="BusyBar" Width="80" Height="4" Margin="0,0,10,0" IsIndeterminate="True"
                      VerticalAlignment="Center" Visibility="Collapsed" BorderThickness="0"

@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Níor aimsíodh suiteálaí breiseán Adobe.\nDeimhnigh go bhfuil an aip Creative Cloud suiteáilte.\n(%@)",
   "error.upiaLaunch": "Níorbh fhéidir suiteálaí breiseán Adobe a thosú: %@",
   "error.upiaTimeout": "[Stopadh tar éis %d s. An bhfuil an aip Creative Cloud oscailte agus an bhfuil tú sínithe isteach?]",
-  "error.unknown": "Earráid anaithnid"
+  "error.unknown": "Earráid anaithnid",
+  "menu.tip": "Fág síneadh láimhe…"
 }

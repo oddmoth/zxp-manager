@@ -39,5 +39,6 @@
   "error.upiaNotFound": "No se encontró el instalador de plugins de Adobe.\nComprueba que la app Creative Cloud esté instalada.\n(%@)",
   "error.upiaLaunch": "No se puede iniciar el instalador de plugins de Adobe: %@",
   "error.upiaTimeout": "[Detenido tras %d s. ¿La app Creative Cloud está abierta y con la sesión iniciada?]",
-  "error.unknown": "Error desconocido"
+  "error.unknown": "Error desconocido",
+  "menu.tip": "Deja una propina…"
 }

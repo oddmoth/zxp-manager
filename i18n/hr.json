@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobeov instalacijski program za dodatke nije pronađen.\nProvjeri je li aplikacija Creative Cloud instalirana.\n(%@)",
   "error.upiaLaunch": "Nije moguće pokrenuti Adobeov instalacijski program za dodatke: %@",
   "error.upiaTimeout": "[Zaustavljeno nakon %d s. Je li aplikacija Creative Cloud otvorena i jesi li prijavljen?]",
-  "error.unknown": "Nepoznata pogreška"
+  "error.unknown": "Nepoznata pogreška",
+  "menu.tip": "Ostavite napojnicu…"
 }

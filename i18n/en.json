@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe's plugin installer was not found.\nMake sure the Creative Cloud app is installed.\n(%@)",
   "error.upiaLaunch": "Couldn't start Adobe's plugin installer: %@",
   "error.upiaTimeout": "[Stopped after %d s. Is the Creative Cloud app open and signed in?]",
-  "error.unknown": "Unknown error"
+  "error.unknown": "Unknown error",
+  "menu.tip": "Leave a tip…"
 }

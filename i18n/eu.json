@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Ez da aurkitu Adoberen pluginen instalatzailea.\nZiurtatu Creative Cloud aplikazioa instalatuta dagoela.\n(%@)",
   "error.upiaLaunch": "Ezin izan da abiarazi Adoberen pluginen instalatzailea: %@",
   "error.upiaTimeout": "[%d s-ren ondoren gelditu da. Creative Cloud aplikazioa irekita dago eta saioa hasita duzu?]",
-  "error.unknown": "Errore ezezaguna"
+  "error.unknown": "Errore ezezaguna",
+  "menu.tip": "Utzi eskupeko bat…"
 }

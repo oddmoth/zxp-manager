@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Fe'aan plugin Adobe hin argamne.\nAppiin Creative Cloud fe'amuu isaa mirkaneessi.\n(%@)",
   "error.upiaLaunch": "Fe'aa plugin Adobe jalqabsiisuun hin danda'amne: %@",
   "error.upiaTimeout": "[Sekondii %d booda dhaabbate. Appiin Creative Cloud banamee seenameeraa?]",
-  "error.unknown": "Dogoggora hin beekamne"
+  "error.unknown": "Dogoggora hin beekamne",
+  "menu.tip": "Kenna galataa dhiisi…"
 }

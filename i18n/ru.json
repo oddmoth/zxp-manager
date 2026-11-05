@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Установщик плагинов Adobe не найден.\nУбедитесь, что приложение Creative Cloud установлено.\n(%@)",
   "error.upiaLaunch": "Не удалось запустить установщик плагинов Adobe: %@",
   "error.upiaTimeout": "[Остановлено через %d с. Открыто ли приложение Creative Cloud и выполнен ли вход?]",
-  "error.unknown": "Неизвестная ошибка"
+  "error.unknown": "Неизвестная ошибка",
+  "menu.tip": "Оставьте чаевые…"
 }

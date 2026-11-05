@@ -39,5 +39,6 @@
   "error.upiaNotFound": "找不到 Adobe 外掛程式安裝程式。\n請確認已安裝 Creative Cloud App。\n(%@)",
   "error.upiaLaunch": "無法啟動 Adobe 外掛程式安裝程式：%@",
   "error.upiaTimeout": "[%d 秒後已停止。Creative Cloud App 是否已開啟並登入？]",
-  "error.unknown": "未知錯誤"
+  "error.unknown": "未知錯誤",
+  "menu.tip": "給小費…"
 }

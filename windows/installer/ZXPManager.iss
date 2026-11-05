@@ -8,7 +8,7 @@
 ;   ISCC /DAppVersion=1.0.0 /DAppExe=C:\path\to\ZXPManager.exe /Odist ZXPManager.iss
 
 #ifndef AppVersion
-  #define AppVersion "1.0.0"
+  #define AppVersion "1.0.1"
 #endif
 #ifndef AppExe
   #define AppExe "..\..\out\ZXPManager.exe"

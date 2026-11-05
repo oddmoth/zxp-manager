@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Namestitvenega programa za vtičnike Adobe ni bilo mogoče najti.\nPreverite, ali je aplikacija Creative Cloud nameščena.\n(%@)",
   "error.upiaLaunch": "Namestitvenega programa za vtičnike Adobe ni bilo mogoče zagnati: %@",
   "error.upiaTimeout": "[Ustavljeno po %d s. Ali je aplikacija Creative Cloud odprta in ste prijavljeni?]",
-  "error.unknown": "Neznana napaka"
+  "error.unknown": "Neznana napaka",
+  "menu.tip": "Pustite napitnino…"
 }

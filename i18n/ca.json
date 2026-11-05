@@ -39,5 +39,6 @@
   "error.upiaNotFound": "No s'ha trobat l'instal·lador de connectors d'Adobe.\nComprova que l'app Creative Cloud està instal·lada.\n(%@)",
   "error.upiaLaunch": "No s'ha pogut iniciar l'instal·lador de connectors d'Adobe: %@",
   "error.upiaTimeout": "[S'ha aturat després de %d s. L'app Creative Cloud està oberta i amb la sessió iniciada?]",
-  "error.unknown": "Error desconegut"
+  "error.unknown": "Error desconegut",
+  "menu.tip": "Deixa una propina…"
 }

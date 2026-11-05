@@ -39,5 +39,6 @@
   "error.upiaNotFound": "未找到 Adobe 插件安装程序。\n请确认已安装 Creative Cloud 应用。\n(%@)",
   "error.upiaLaunch": "无法启动 Adobe 插件安装程序：%@",
   "error.upiaTimeout": "[%d 秒后已停止。Creative Cloud 应用是否已打开并登录？]",
-  "error.unknown": "未知错误"
+  "error.unknown": "未知错误",
+  "menu.tip": "给小费…"
 }

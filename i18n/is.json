@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Uppsetningarforrit Adobe fyrir viðbætur fannst ekki.\nGakktu úr skugga um að Creative Cloud-forritið sé uppsett.\n(%@)",
   "error.upiaLaunch": "Ekki tókst að ræsa uppsetningarforrit Adobe fyrir viðbætur: %@",
   "error.upiaTimeout": "[Stöðvað eftir %d sek. Er Creative Cloud-forritið opið og ertu innskráð(ur)?]",
-  "error.unknown": "Óþekkt villa"
+  "error.unknown": "Óþekkt villa",
+  "menu.tip": "Gefðu þjórfé…"
 }

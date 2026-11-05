@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobeର ପ୍ଲଗଇନ ଇନଷ୍ଟଲର ମିଳିଲା ନାହିଁ।\nCreative Cloud ଆପ୍ ଇନଷ୍ଟଲ ଅଛି କି ନାହିଁ ଯାଞ୍ଚ କରନ୍ତୁ।\n(%@)",
   "error.upiaLaunch": "Adobeର ପ୍ଲଗଇନ ଇନଷ୍ଟଲର ଆରମ୍ଭ କରିହେଲା ନାହିଁ: %@",
   "error.upiaTimeout": "[%d ସେକେଣ୍ଡ ପରେ ବନ୍ଦ କରାଗଲା। Creative Cloud ଆପ୍ ଖୋଲା ଅଛି ଏବଂ ସାଇନ୍ ଇନ୍ ହୋଇଛି କି?]",
-  "error.unknown": "ଅଜଣା ତ୍ରୁଟି"
+  "error.unknown": "ଅଜଣା ତ୍ରୁଟି",
+  "menu.tip": "ବକସିସ୍ ଦିଅନ୍ତୁ…"
 }

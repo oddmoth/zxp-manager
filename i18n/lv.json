@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Netika atrasts Adobe spraudņu instalētājs.\nPārliecinieties, ka Creative Cloud lietotne ir instalēta.\n(%@)",
   "error.upiaLaunch": "Neizdevās palaist Adobe spraudņu instalētāju: %@",
   "error.upiaTimeout": "[Apturēts pēc %d s. Vai Creative Cloud lietotne ir atvērta un esat pierakstījies?]",
-  "error.unknown": "Nezināma kļūda"
+  "error.unknown": "Nezināma kļūda",
+  "menu.tip": "Atstāt dzeramnaudu…"
 }

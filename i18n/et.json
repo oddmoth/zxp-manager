@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe pistikprogrammide installerit ei leitud.\nVeenduge, et Creative Cloudi rakendus on installitud.\n(%@)",
   "error.upiaLaunch": "Adobe pistikprogrammide installerit ei saanud käivitada: %@",
   "error.upiaTimeout": "[Peatati %d s pärast. Kas Creative Cloudi rakendus on avatud ja olete sisse logitud?]",
-  "error.unknown": "Tundmatu viga"
+  "error.unknown": "Tundmatu viga",
+  "menu.tip": "Jäta jootraha…"
 }

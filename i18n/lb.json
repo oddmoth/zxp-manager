@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Den Adobe-Plugin-Installateur gouf net fonnt.\nKontrolléiert, ob d'Creative-Cloud-App installéiert ass.\n(%@)",
   "error.upiaLaunch": "Den Adobe-Plugin-Installateur konnt net gestart ginn: %@",
   "error.upiaTimeout": "[No %d s gestoppt. Ass d'Creative-Cloud-App op an sidd Dir ageloggt?]",
-  "error.unknown": "Onbekannte Feeler"
+  "error.unknown": "Onbekannte Feeler",
+  "menu.tip": "Drénkgeld do loossen…"
 }

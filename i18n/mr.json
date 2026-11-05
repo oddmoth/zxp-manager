@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe चा प्लगइन इन्स्टॉलर सापडला नाही.\nCreative Cloud ॲप इन्स्टॉल असल्याची खात्री करा.\n(%@)",
   "error.upiaLaunch": "Adobe चा प्लगइन इन्स्टॉलर सुरू करता आला नाही: %@",
   "error.upiaTimeout": "[%d सेकंदांनंतर थांबवले. Creative Cloud ॲप उघडे आहे आणि साइन इन केलेले आहे का?]",
-  "error.unknown": "अज्ञात त्रुटी"
+  "error.unknown": "अज्ञात त्रुटी",
+  "menu.tip": "टिप द्या…"
 }

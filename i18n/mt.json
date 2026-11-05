@@ -39,5 +39,6 @@
   "error.upiaNotFound": "L-installatur tal-plugins ta' Adobe ma nstabx.\nIvverifika li l-app Creative Cloud hija installata.\n(%@)",
   "error.upiaLaunch": "Ma setax jinbeda l-installatur tal-plugins ta' Adobe: %@",
   "error.upiaTimeout": "[Twaqqaf wara %d s. L-app Creative Cloud hija miftuħa u int illoggjat?]",
-  "error.unknown": "Żball mhux magħruf"
+  "error.unknown": "Żball mhux magħruf",
+  "menu.tip": "Ħalli tip…"
 }

@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Adobe eklenti yükleyicisi bulunamadı.\nCreative Cloud uygulamasının yüklü olduğundan emin olun.\n(%@)",
   "error.upiaLaunch": "Adobe eklenti yükleyicisi başlatılamıyor: %@",
   "error.upiaTimeout": "[%d sn sonra durduruldu. Creative Cloud uygulaması açık ve oturum açılmış mı?]",
-  "error.unknown": "Bilinmeyen hata"
+  "error.unknown": "Bilinmeyen hata",
+  "menu.tip": "Bahşiş bırakın…"
 }

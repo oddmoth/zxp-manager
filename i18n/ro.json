@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Programul de instalare a pluginurilor Adobe nu a fost găsit.\nVerifică dacă aplicația Creative Cloud este instalată.\n(%@)",
   "error.upiaLaunch": "Nu s-a putut porni programul de instalare a pluginurilor Adobe: %@",
   "error.upiaTimeout": "[Oprit după %d s. Aplicația Creative Cloud este deschisă și ești conectat?]",
-  "error.unknown": "Eroare necunoscută"
+  "error.unknown": "Eroare necunoscută",
+  "menu.tip": "Lasă un bacșiș…"
 }

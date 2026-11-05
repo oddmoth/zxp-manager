@@ -39,5 +39,6 @@
   "error.upiaNotFound": "Heb ddod o hyd i osodwr ategion Adobe.\nGwnewch yn siŵr bod yr ap Creative Cloud wedi'i osod.\n(%@)",
   "error.upiaLaunch": "Methu cychwyn gosodwr ategion Adobe: %@",
   "error.upiaTimeout": "[Wedi stopio ar ôl %d eiliad. Ydy'r ap Creative Cloud ar agor ac wedi mewngofnodi?]",
-  "error.unknown": "Gwall anhysbys"
+  "error.unknown": "Gwall anhysbys",
+  "menu.tip": "Gadewch gildwrn…"
 }

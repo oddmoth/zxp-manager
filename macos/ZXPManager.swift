@@ -692,6 +692,13 @@ struct ContentView: View {
         }
         .frame(minWidth: 560, minHeight: 440)
         .toolbar {
+            // Tip button on its own, on the leading side (like the heart on Windows)
+            ToolbarItem(placement: .navigation) {
+                Button { NSWorkspace.shared.open(tipPageURL) } label: {
+                    Label(L("menu.tip"), systemImage: "heart")
+                }
+                .help(L("menu.tip"))
+            }
             ToolbarItemGroup {
                 if model.busy { ProgressView().controlSize(.small) }
                 Button { model.importing = true } label: {
